@@ -1,0 +1,15 @@
+query ($documentos: [DocumentosV2!]!) {
+  gmm_solicitarReembolsoV2(documentos: $documentos) {
+    mensaje
+    codigo
+    completado
+    dato {
+      status
+      doctosCorrectos {
+        claimId
+        folio
+        id
+      }
+    }
+  }
+}

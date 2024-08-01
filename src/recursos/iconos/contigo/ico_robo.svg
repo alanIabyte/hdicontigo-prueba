@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+  <g id="Grupo_19716" data-name="Grupo 19716" transform="translate(19079 24363)">
+    <g id="Grupo_19037" data-name="Grupo 19037" transform="translate(-18441 -24631)">
+      <path id="Trazado_11521" data-name="Trazado 11521" d="M0,0H54V54H0Z" transform="translate(-638 268)" fill="none"/>
+      <g id="Grupo_19036" data-name="Grupo 19036" transform="translate(-93.5 -125.457)">
+        <g id="Grupo_19035" data-name="Grupo 19035" transform="translate(3)">
+          <g id="Elipse_1285" data-name="Elipse 1285" transform="translate(-514.363 403.457)" fill="none" stroke="#006c30" stroke-width="2.5">
+            <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+            <circle cx="4.5" cy="4.5" r="3.25" fill="none"/>
+          </g>
+          <path id="Trazado_11641" data-name="Trazado 11641" d="M-414.417,530.513h6.267s3.451-4.9,4.842-3.9,3.725,9.2,3.554,9.218a52.146,52.146,0,0,0-4.636,5c-1.527,1.894,2.14,9.977,2.14,9.977" transform="translate(-100.25 -113.063)" fill="none" stroke="#006c30" stroke-linecap="round" stroke-width="3.5"/>
+          <path id="Polígono_1" data-name="Polígono 1" d="M1.318,0,2.637,7.031H0Z" transform="translate(-509.969 432.219)" fill="#006c30"/>
+        </g>
+        <g id="Grupo_19034" data-name="Grupo 19034" transform="translate(54 59)">
+          <path id="Sustracción_1" data-name="Sustracción 1" d="M40,37.25H37.75A2.253,2.253,0,0,1,35.5,35V32.75h-13v-4.5H37.75V17H22.5V12.748H35.995l-2.43-7H22.5V1.25H34.375A3.363,3.363,0,0,1,37.57,3.523L42.25,17V35A2.253,2.253,0,0,1,40,37.25Z" transform="translate(-614 343)" fill="#006c30"/>
+          <circle id="Elipse_1283" data-name="Elipse 1283" cx="3" cy="3" r="3" transform="translate(-585 362)" fill="#006c30"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

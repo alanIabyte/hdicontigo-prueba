@@ -1,0 +1,122 @@
+query(
+  $agencia: String!
+  $inciso: Int!
+  $lineaNegocio: String!
+  $numeroReporte: Int!
+  $poliza: String!
+  $token: String!
+) {
+  cobranza_detallePolizaCobranza(
+    agencia: $agencia
+    inciso: $inciso
+    lineaNegocio: $lineaNegocio
+    numeroReporte: $numeroReporte
+    poliza: $poliza
+    token: $token
+  ) {
+    codigo
+    completado
+    mensaje
+    dato {
+      nombreAgente
+      paquete
+      esDxn
+      titularPoliza
+      permiteRecYDom
+      coberturas {
+        cobertura
+        deducible
+        sumaAsegurada
+        idSeccion
+      }
+      seccionesCoberturas {
+        idSeccion
+        seccion
+      }
+      condicionEspeciales {
+        descripcionCondicion
+      }
+      datosBien {
+        descripcion
+        tipoBien
+      }
+      datosDomiciliacion {
+        domiciliado
+        metodoDomiciliacion
+      }
+      endosos {
+        certificado
+        endoso
+        estatus
+        fechaEmision
+        fechaFinVigencia
+        fechaInicioVigencia
+        movimiento
+        domiciliado
+        metodoDomiciliacion
+      }
+      modulosAmanteAutos {
+        coberturasModulos {
+          coberturaDescripcion
+          nombreModulo
+        }
+      }
+      modulosAutoSiempre {
+        coberturasModulos {
+          coberturaDescripcion
+          nombreModulo
+        }
+      }
+      recibos {
+        aplicaMeses
+        checkPagar
+        chequeDevuelto
+        colorEstatus
+        estatus
+        fechaPago
+        folio
+        noEndoso
+        numeroRecibo
+        primaNeta
+        serie
+        tipoRecibo
+        vigenciaFin
+        vigenciaInicio
+      }
+      recibosEndosos {
+        aplicaMeses
+        checkPagar
+        chequeDevuelto
+        colorEstatus
+        estatus
+        fechaPago
+        folio
+        noEndoso
+        numeroRecibo
+        primaNeta
+        serie
+        tipoRecibo
+        vigenciaFin
+        vigenciaInicio
+      }
+      totalRecibos {
+        noPagado
+        pagado
+        totalRecibos
+      }
+      totalEndosos {
+        noPagado
+        pagado
+        totalRecibos
+      }
+      vehiculo {
+        caracteristica
+        color
+        marca
+        modelo
+        placas
+        version
+      }
+    }
+  }
+}

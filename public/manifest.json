@@ -1,0 +1,147 @@
+{
+  "short_name": "HDI Contigo",
+  "background_color": "#ffffff",
+  "categories": [
+    "lifestyle",
+    "music"
+  ],
+  "description": "Esta es una PWA de prueba para mi gente en YouTube",
+  "dir": "ltr",
+  "display_override": [
+    "standalone",
+    "fullscreen"
+  ],
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "20.png",
+      "type": "image/png",
+      "sizes": "20x20"
+    },
+    {
+      "src": "29.png",
+      "type": "image/png",
+      "sizes": "29x29",
+      "purpose": "any "
+    },
+    {
+      "src": "40.png",
+      "type": "image/png",
+      "sizes": "40x40"
+    },
+    {
+      "src": "48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "50.png",
+      "type": "image/png",
+      "sizes": "50x50"
+    },
+    {
+      "src": "57.png",
+      "type": "image/png",
+      "sizes": "57x57"
+    },
+    {
+      "src": "58.png",
+      "type": "image/png",
+      "sizes": "58x58"
+    },
+    {
+      "src": "60.png",
+      "type": "image/png",
+      "sizes": "60x60"
+    },
+    {
+      "src": "72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "76.png",
+      "type": "image/png",
+      "sizes": "76x76"
+    },
+    {
+      "src": "80.png",
+      "type": "image/png",
+      "sizes": "80x80"
+    },
+    {
+      "src": "87.png",
+      "type": "image/png",
+      "sizes": "87x87"
+    },
+    {
+      "src": "100.png",
+      "type": "image/png",
+      "sizes": "100x100"
+    },
+    {
+      "src": "114.png",
+      "type": "image/png",
+      "sizes": "114x114"
+    },
+    {
+      "src": "120.png",
+      "type": "image/png",
+      "sizes": "120x120"
+    },
+    {
+      "src": "144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "152.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "167.png",
+      "type": "image/png",
+      "sizes": "167x167"
+    },
+    {
+      "src": "180.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "216.png",
+      "type": "image/png",
+      "sizes": "216x216"
+    },
+    {
+      "src": "512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "logo_512x512.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screen-shot-1280x800.jpg",
+      "sizes": "1280x800",
+      "type": "image/png"
+    },
+    {
+      "src": "screen-shot-750x1334.jpg",
+      "sizes": "750x1334",
+      "type": "image/png"
+    }
+  ],
+  "lang": "es-MX",
+  "name": "HDI Contigo APP",
+  "orientation": "portrait",
+  "prefer_related_application": false,
+  "scope": "/",
+  "start_url": "/",
+  "theme_color": "#000000"
+}

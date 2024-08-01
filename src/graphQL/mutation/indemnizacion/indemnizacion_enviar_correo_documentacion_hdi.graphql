@@ -1,0 +1,20 @@
+mutation (
+    $urlDescargaDocumentos: String!
+    $correoElectronico: String!
+    $numeroReporte: String!
+    $tipoAtencion: String!
+    $tipoPersona: String!
+) {
+    enviar_correo_documentacion_hdi(
+        urlDescargaDocumentos: $urlDescargaDocumentos
+        correoElectronico: $correoElectronico
+        numeroReporte: $numeroReporte
+        tipoAtencion: $tipoAtencion
+        tipoPersona: $tipoPersona
+    ) {
+        mensaje
+        codigo
+        completado
+        dato
+    }
+}

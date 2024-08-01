@@ -1,0 +1,11 @@
+query ($numeroReporte: Int!, $usuario: String!) {
+  obtener_imagenes_reporte(numeroReporte: $numeroReporte, usuario: $usuario) {
+    codigo
+    completado
+    mensaje
+    dato {
+      nombre
+      url
+    }
+  }
+}

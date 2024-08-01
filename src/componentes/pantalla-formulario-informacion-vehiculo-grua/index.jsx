@@ -1,0 +1,3 @@
+import PantallaFormularioInformacionVehiculoGrua from "./pantalla-formulario-informacion-vehiculo-grua-componente/PantallaFormularioInformacionVehiculoGrua";
+
+export default PantallaFormularioInformacionVehiculoGrua;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContenedorOpcion se despliega correctamente 1`] = `
+<a
+  className="sc-aXZVg hzQrdN"
+  href="http://test"
+>
+  <div
+    className="sc-iGgWBj dGyqTJ"
+  >
+     
+    http://test
+     
+  </div>
+  <div
+    className="sc-gEvEer onmco"
+  >
+    <div
+      className="sc-eqUAAy kHRksZ"
+    >
+       
+      titulo
+       
+    </div>
+    <div
+      className="sc-fqkvVR ehrpfY"
+    >
+       
+      subtitulo
+       
+    </div>
+  </div>
+</a>
+`;

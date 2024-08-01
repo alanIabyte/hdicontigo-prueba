@@ -1,0 +1,86 @@
+.color-verde-linea {
+    background-color: #65A518 !important;
+}
+
+.color-gris-linea {
+    background-color: var(--color-gris-claro) !important;
+}
+
+.color-blanco-linea {
+    background-color: #ffffff !important;
+    border: solid 1px var(--color-gris-claro) !important;
+}
+
+.color-contenedor-blanco {
+    display: flex;
+    background-color:  white !important; 
+    width: 40px !important;
+    height: 40px !important;
+    margin-top: 20px;
+    padding: 5px !important;
+    align-content: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.contenedor-flex-boton {
+    display: flex;
+    flex-direction: row;
+}
+
+.elemento-click {
+    cursor: pointer;
+}
+
+.timeline-position {
+    z-index: 2;
+}
+
+.contenedor-flecha {
+    display: inline-flex;
+    position: absolute;
+    top: 320px;
+    left: 59px;
+    z-index: 0;
+}
+
+.contenedor-flecha-pequeno {
+    display: inline-flex;
+    position: absolute;
+    width: 100px;
+    height: 220px;
+    top: 89px;
+    left: 37px;
+    z-index: 0;
+}
+
+.centrar-imagen {
+    width: 25px !important; 
+    margin: 0 auto !important;
+}
+
+.tamanio-icono {
+    width: 40px !important;
+}
+
+.MuiTimeline-root {
+    justify-self: flex-start !important;
+    align-self: flex-start !important;
+}
+
+.text-14 {
+    font-size: 14px;
+    margin-top: 15px !important;
+}
+
+.enlace {
+    color: var(--color-azul-enlace);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media (max-height: 740px) {
+    .tamanio-movil {
+        height: calc(100% - 170px) !important;
+    }
+}

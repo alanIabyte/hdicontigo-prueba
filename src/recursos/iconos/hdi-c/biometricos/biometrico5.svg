@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 24">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #979797;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke: #d7d7d7;
+        stroke-width: .5px;
+      }
+    </style>
+  </defs>
+  <g id="Flechas_instrucciones" data-name="Flechas instrucciones">
+    <path id="Rectángulo_7220" data-name="Rectángulo 7220" class="cls-1" d="M12,.5h26c6.35,0,11.5,5.15,11.5,11.5h0c0,6.35-5.15,11.5-11.5,11.5H12C5.65,23.5.5,18.35.5,12h0C.5,5.65,5.65.5,12,.5Z"/>
+    <circle id="Elipse_1351" data-name="Elipse 1351" class="cls-2" cx="12" cy="12" r="9.75"/>
+  </g>
+</svg>

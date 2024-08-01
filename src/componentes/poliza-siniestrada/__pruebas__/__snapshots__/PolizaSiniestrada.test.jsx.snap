@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#PolizaSiniestrada se despliega correctamente 1`] = `
+<div
+  className="sc-ikkxIA oBEQp"
+>
+  <img
+    className="sc-dAbbOL cjYUcy"
+    data-numero-poliza="XXX-XX-XXX"
+    onClick={[Function]}
+    src="test-file-stub"
+  />
+  <div
+    className="sc-iGgWBj sc-feUZmu fgQoGq ekOaQc"
+  >
+    #Nombre o modelo de auto YYYY
+  </div>
+  <div
+    className="sc-iGgWBj sc-fUnMCh fgQoGq"
+  >
+    Póliza: 
+     
+    XXX-XX-XXX
+  </div>
+  <div
+    className="sc-eldPxv sc-hzhJZQ jeNqaZ jtGwLX"
+  >
+    Vigente hasta: 
+     
+    Fecha inválida
+  </div>
+  <div
+    className="sc-hmdomO eRTxhy"
+  />
+  <div
+    className="sc-bXCLTC jsrxpX"
+  >
+    <div
+      className="sc-jsJBEP jWWLCa"
+      onClick={[Function]}
+    >
+      <div
+        className="sc-kpDqfm sc-eeDRCY bTCkFB dncNPu"
+      >
+        Siniestro(s) activo(s): 
+      </div>
+      <div
+        className="sc-kpDqfm sc-koXPp bTCkFB jVjrit"
+      >
+        1
+      </div>
+      <div
+        className="sc-bmzYkS eeHdGg"
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M8.12 9.29L12 13.17l3.88-3.88c.39-.39 1.02-.39 1.41 0 .39.39.39 1.02 0 1.41l-4.59 4.59c-.39.39-1.02.39-1.41 0L6.7 10.7a.9959.9959 0 010-1.41c.39-.38 1.03-.39 1.42 0z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;

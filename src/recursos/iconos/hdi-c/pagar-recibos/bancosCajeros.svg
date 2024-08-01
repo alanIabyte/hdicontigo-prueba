@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="54" viewBox="0 0 54 54">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_7050" data-name="Rectangle 7050" width="54" height="54" transform="translate(115 570)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_22" data-name="Mask Group 22" transform="translate(-115 -570)" clip-path="url(#clip-path)">
+    <g id="Group_21177" data-name="Group 21177" transform="translate(8.201 -0.849)">
+      <g id="Group_21176" data-name="Group 21176" transform="translate(124.272 593.988)">
+        <path id="Trazado_4569" data-name="Trazado 4569" d="M313.028,599.394V589.089" transform="translate(-313.028 -589.089)" fill="none" stroke="#e60018" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Trazado_4569-2" data-name="Trazado 4569" d="M313.028,599.394V589.089" transform="translate(-303.753 -589.089)" fill="none" stroke="#e60018" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Trazado_4569-3" data-name="Trazado 4569" d="M313.028,599.394V589.089" transform="translate(-294.479 -589.089)" fill="none" stroke="#e60018" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Group_21171" data-name="Group 21171" transform="translate(118 577.493)">
+        <g id="Trazado_3227" data-name="Trazado 3227">
+          <path id="Path_12129" data-name="Path 12129" d="M422.314,584.011a1.031,1.031,0,0,1-.611-1.862l13.606-9.98a2.99,2.99,0,0,1,3.547,0l13.6,9.976a1.03,1.03,0,0,1-1.218,1.662l-13.6-9.975a.932.932,0,0,0-1.11,0l-13.6,9.978A1.022,1.022,0,0,1,422.314,584.011Z" transform="translate(-421.282 -571.587)" fill="#006729" stroke="#006729" stroke-width="1"/>
+        </g>
+        <path id="Trazado_4569-4" data-name="Trazado 4569" d="M0,29.576V0" transform="translate(30.4 11.551) rotate(90)" fill="#006729" stroke="#006729" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <g id="Rectangle_7046" data-name="Rectangle 7046" transform="translate(1.031 30.408)" fill="none" stroke="#006729" stroke-linecap="round" stroke-width="3">
+          <rect width="29.885" height="10.305" rx="3" stroke="none"/>
+          <rect x="1.5" y="1.5" width="26.885" height="7.305" rx="1.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

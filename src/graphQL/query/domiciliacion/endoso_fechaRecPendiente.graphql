@@ -1,0 +1,20 @@
+query (
+  $numeroPoliza: String!
+  $certificado: Int!
+  $lineaNegocio: String!
+  $agencia: String!
+) {
+  endoso_fechaRecPendiente(
+    numeroPoliza: $numeroPoliza
+    certificado: $certificado
+    lineaNegocio: $lineaNegocio
+    agencia: $agencia
+  ) {
+    codigo
+    completado
+    dato {
+      inicioVigencia
+    }
+    mensaje
+  }
+}

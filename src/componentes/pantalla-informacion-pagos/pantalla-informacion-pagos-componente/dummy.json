@@ -1,0 +1,60 @@
+{
+    "recibos": [
+        { 
+            "__typename": "Recibos",  
+            "chequeDevuelto": "No",
+            "estatus": "Pendiente",
+            "fechaPago": "2021-11-24T10:02:58.163",
+            "folio": 48507878,
+            "noEndoso": "02",
+            "numeroRecibo": "1 de 10",
+            "primaNeta": "9,286.55",
+            "serie": 1,
+            "tipoRecibo": "Recibo",
+            "vigenciaFin": "2022-11-17T12:00:00",
+            "vigenciaInicio": "2021-11-17T12:00:00"
+        },
+        { 
+            "__typename": "Recibos",  
+            "chequeDevuelto": "No",
+            "estatus": "Pagar",
+            "fechaPago": "2021-11-24T10:02:58.163",
+            "folio": 4773965499,
+            "noEndoso": "02",
+            "numeroRecibo": "2 de 10",
+            "primaNeta": "9,286.55",
+            "serie": 1,
+            "tipoRecibo": "Recibo",
+            "vigenciaFin": "2022-11-17T12:00:00",
+            "vigenciaInicio": "2021-11-17T12:00:00"
+        },
+        { 
+            "__typename": "Recibos",  
+            "chequeDevuelto": "No",
+            "estatus": "Pagar",
+            "fechaPago": "2021-11-24T10:02:58.163",
+            "folio": 4772230771,
+            "noEndoso": "02",
+            "numeroRecibo": "3 de 10",
+            "primaNeta": "9,286.55",
+            "serie": 1,
+            "tipoRecibo": "Recibo",
+            "vigenciaFin": "2022-11-17T12:00:00",
+            "vigenciaInicio": "2021-11-17T12:00:00"
+        },
+        { 
+            "__typename": "Recibos",  
+            "chequeDevuelto": "No",
+            "estatus": "Pagar",
+            "fechaPago": "2021-11-24T10:02:58.163",
+            "folio": 4774661777,
+            "noEndoso": "02",
+            "numeroRecibo": "4 de 10",
+            "primaNeta": "9,286.55",
+            "serie": 1,
+            "tipoRecibo": "Recibo",
+            "vigenciaFin": "2022-11-17T12:00:00",
+            "vigenciaInicio": "2021-11-17T12:00:00"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+query ($index: Int, $numeroReporte: Int!, $token: String!) {
+  obtener_ubicacion_ajustador(numeroReporte: $numeroReporte, index: $index, token: $token) {
+    dato {
+      nipAjustador
+      idAjustador
+      nombreAjustador
+      estatusReporte
+      longitud
+      latitud
+    }
+    completado
+    codigo
+    mensaje
+  }
+}

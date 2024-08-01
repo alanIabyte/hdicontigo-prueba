@@ -1,0 +1,40 @@
+query ($idEncuesta: Int!) {
+  obtener_encuesta(idEncuesta: $idEncuesta) {
+    codigo
+    completado
+    mensaje
+    dato {
+      id
+      titulo
+      tipoId
+      tipoDescripcion
+      nombre
+      paginas {
+        id
+        orden
+        nombre
+        encuestaId
+        titulo
+        preguntas {
+          descripcion
+          encuestaId
+          paginaId
+          orden
+          idEP
+          id
+          respuestas {
+            valorB
+            valorA
+            texto
+            preguntaId
+            orden
+            id
+            encuestaId
+          }
+          tipoId
+          tipoDescripcion
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,201 @@
+:root {
+  //<---------------   Colors   --------------->
+  --color-negro-normal: #333333;
+  --color-verde-normal:  #006729;
+  --color-gris-normal: #f2f2f2;
+  --color-negro-puro: #000000;
+  --color-gris-medio: #6E6E6E;
+  --color-gris-claro: #afafaf;
+  --color-blanco-normal: #ffffff;
+  --color-azul-normal: #036be4;
+  --color-morado-normal: #57018a;
+  --color-marca-normal: rgba(101, 165, 24, 1);
+  --color-error-normal: #e30425;
+  --color-alerta-normal: #f7b500;
+  --color-exitoso-normal: #4aa73e;
+  --color-informativo-normal: #32c5ff;
+  --color-azul-claro: #98c1f0;
+  --color-azul-enlace: #00A3A8;
+  --color-verde-enlace: #65A518;
+  --color-gris-templado: #5A5A5A;
+  --color-gris-oscuro: #4a4a4a;
+  --color-verde-progreso: #008D3E;
+  --color-gris-progreso: #E5E5E5;
+
+  // Color de fondo
+  --fondo-blanco-medio: #f8f8f8;
+  --fondo-blanco-normal: #ffffff;
+  --fondo-gris-claro: #afafaf;
+  --fondo-gris-medio: #707070;
+  --fondo-gris-ligero: #f5f5f5;
+  --fondo-gris: #e5e5e5;
+  --fondo-rojo: #E60018;
+  --fondo-verde: #04642c;
+  --fondo-verde-marca: #026c30;
+  --fondo-verde-oscuro: #00602b;
+  --fondo-verde-profundo: #001309;
+  --fondo-verde-claro: #008d3e;
+  --fondo-negro: #000000;
+  --fondo-exitoso: #4aa73e;
+  --fondo-error: #e30425;
+  --fondo-alerta-flotante: #F7B500;
+
+  // Color de texto
+  --texto-azul: #1489ff;
+  --texto-negro: #010101;
+  --texto-oscuro: #30333a;
+  --texto-gris: #717171;
+  --texto-rojo: #e00a19;
+  --texto-blanco: #ffffff;
+  --texto-amarillo: #f7b500;
+
+  // Color de iconos
+  --icono-amarillo: #fcb42c;
+  --icono-rojo: #e41424;
+
+  //<---------------   anchos de sitio   --------------->
+  --ancho-maximo-movil: 580px;
+  --font-size: 12px;
+
+  //<---------------   Fuentes   --------------->
+  --fuente-montserrat-regular: Montserrat Regular;
+  --fuente-montserrat-bold: Montserrat Bold;
+  --fuente-montserrat-semibold: Montserrat Semibold;
+  // Cambio a fuente proxima nova
+  --fuente-proxima-regular: proxima-nova;
+  // --fuente-proxima-regular: Proxima Regular;
+  --fuente-proxima-bold: Proxima Bold;
+  --fuente-idautomation: IDAutomation;
+  --fuente-proxima-nova: Proxima Nova;
+  --fuente-proxima-nova-bold: Proxima Nova Bold;
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"),
+    url("../fonts/montserrat/Montserrat-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Montserrat Bold";
+  font-style: bold;
+  font-weight: 600;
+  src: local("Montserrat Bold"),
+    url("../fonts/montserrat/Montserrat-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Montserrat Semibold";
+  font-style: bold;
+  font-weight: 700;
+  src: local("Montserrat Semibold"),
+    url("../fonts/montserrat/Montserrat-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Proxima Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Proxima Regular"),
+    url("../fonts/proxima/ProximaNova-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Proxima Bold";
+  font-style: bold;
+  font-weight: 700;
+  src: local("Proxima Bold"),
+    url("../fonts/proxima/Proxima Nova Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "IDAutomation";
+  src: local("IDAutomationHcC128L"),
+    url("../fonts/idautomation/IDAutomationHcC128L.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "proxima-nova-italic", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  src: url("https://use.typekit.net/ptj1iuv.css");
+}
+
+@font-face {
+  font-family: "proxima-nova-normal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  src: url("https://use.typekit.net/ptj1iuv.css");
+}
+
+@font-face {
+  font-family: "proxima-nova-italic-bold", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  src: url("https://use.typekit.net/ptj1iuv.css");
+}
+
+@font-face {
+  font-family: "proxima-nova-normal-bold", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  src: url("https://use.typekit.net/ptj1iuv.css");
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  max-width: var(--ancho-maximo-movil);
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: var(--fondo-blanco-normal);
+  position: relative;
+}
+
+.appS {
+  max-width: var(--ancho-maximo-movil);
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: var(--fondo-blanco-normal);
+  position: relative;
+  min-height: 200px;
+}
+
+body .MuiInput-underline:after {
+  border-bottom: none !important;
+}
+
+.archivoOficioRobo {
+  position: relative;
+  overflow: hidden;
+}
+
+.archivoOficioRobo input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.archivoOficioRobo label {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

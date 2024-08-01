@@ -1,0 +1,15 @@
+query ($numeroPoliza: String!, $beneficiario: String!, $factura: String!) {
+  obtener_imagenes_reembolso(
+    numeroPoliza: $numeroPoliza
+    beneficiario: $beneficiario
+    factura: $factura
+  ) {
+    codigo
+    completado
+    mensaje
+    dato {
+      nombre
+      url
+    }
+  }
+}

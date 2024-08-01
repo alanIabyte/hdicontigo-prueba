@@ -1,0 +1,17 @@
+query (
+  $nombreArchivo: String!,
+  $numeroTelefono: String!
+) {
+  obtener_audioRobo(
+    nombreArchivo: $nombreArchivo,
+    numeroTelefono: $numeroTelefono
+  ) {
+    codigo
+    completado
+    dato {
+      nombre
+      url
+    }
+    mensaje
+  }
+}

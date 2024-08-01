@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="67" viewBox="0 0 60 67">
+  <g id="Grupo_19744" data-name="Grupo 19744" transform="translate(17809 18508)">
+    <g id="icon_alert_error_24px" data-name="icon/alert/error_24px" transform="translate(-17809 -18501)">
+      <rect id="Boundary" width="60" height="60" fill="none"/>
+    </g>
+    <path id="Trazado_11197" data-name="Trazado 11197" d="M29.5,0A29.5,29.5,0,1,1,0,29.5,29.5,29.5,0,0,1,29.5,0Z" transform="translate(-17809 -18508)" fill="#00a3a8"/>
+    <g id="check-24px" transform="translate(-17795 -18494)">
+      <g id="Grupo_23" data-name="Grupo 23" transform="translate(0)">
+        <path id="Trazado_10752" data-name="Trazado 10752" d="M0,0H32V32H0Z" fill="none"/>
+      </g>
+      <g id="Grupo_24" data-name="Grupo 24" transform="translate(0 4.411)">
+        <path id="Trazado_10753" data-name="Trazado 10753" d="M32.713,7.015,15.141,24.587,7.805,17.252a2.064,2.064,0,0,0-2.922,0h0a2.064,2.064,0,0,0,0,2.922l8.786,8.786a2.064,2.064,0,0,0,2.922,0L35.614,9.937a2.07,2.07,0,0,0-.021-2.942h0A2.033,2.033,0,0,0,32.713,7.015Z" transform="translate(-4.278 -6.406)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

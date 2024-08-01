@@ -1,0 +1,20 @@
+mutation (
+  $numeroReporte: Int!
+  $usuario: String!
+  $email: String!
+) {
+  cobranza_obtenerMitSiniestro(
+    numeroReporte: $numeroReporte
+    usuario: $usuario
+    email: $email
+  ) {
+    codigo
+    completado
+    dato {
+      refTransaccion
+      urlTransaccion
+      rfc
+    }
+    mensaje
+  }
+}

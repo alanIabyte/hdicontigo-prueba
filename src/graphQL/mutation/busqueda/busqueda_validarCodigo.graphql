@@ -1,0 +1,14 @@
+mutation (
+  $codigoId: Int!
+  $codigo: String!
+) {
+  busqueda_validarCodigo(
+    codigoId: $codigoId,
+    codigo: $codigo
+  ) {
+    codigo
+    completado
+    mensaje
+    dato
+  }
+}

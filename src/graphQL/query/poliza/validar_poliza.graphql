@@ -1,0 +1,35 @@
+query (
+  $poliza: String!
+  $vin: String!
+  $fechaOcurrencia: AWSDateTime!
+  $codigoError: String
+) {
+  validar_poliza(
+    fechaOcurrencia: $fechaOcurrencia
+    poliza: $poliza
+    vin: $vin
+    codigoError: $codigoError
+  ) {
+    mensaje
+    codigo
+    completado
+    dato {
+      correo
+      estatus
+      fechaInicio
+      fechaTermino
+      lineaNegocio
+      nombreCompletoAsegurado
+      numeroCertificado
+      numeroDocumento
+      numeroEndoso
+      oficina
+      poliza
+      telefonoAsegurado
+      tipoAsegurado
+      vin
+      datosVehiculo
+      contieneModulos
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
+  <g id="Group_21216" data-name="Group 21216" transform="translate(-7.199 -577.09)">
+    <rect id="Rectangle_6986" data-name="Rectangle 6986" width="58" height="58" transform="translate(7.199 577.09)" fill="none"/>
+    <g id="Group_20924" data-name="Group 20924" transform="translate(15.704 579.165)">
+      <g id="Group_20922" data-name="Group 20922" transform="translate(0.655)">
+        <path id="Path_12006" data-name="Path 12006" d="M546.572,358.906a18.328,18.328,0,0,0-21.087,10.912c-3.233,8.037-1.15,15.258,4.114,21.738,3.691,4.545,8.2,8.376,11.452,13.322.841,1.279,2.1,1.225,2.949-.043,3.1-4.608,7.178-8.344,10.785-12.5,3.758-4.329,6.257-9.213,6.163-15.924A18.188,18.188,0,0,0,546.572,358.906Zm6.257,30.412c-3.255,4.007-7.27,7.325-10.3,11.769-2.956-4.172-6.638-7.392-9.785-11.1-4.191-4.94-6.56-10.438-4.747-17.03a15.093,15.093,0,0,1,19.786-10.123,15.6,15.6,0,0,1,8.317,21.3A24.6,24.6,0,0,1,552.829,389.317Z" transform="translate(-523.945 -358.481)" fill="#016c30"/>
+        <path id="Path_12007" data-name="Path 12007" d="M538.269,364.383a8.441,8.441,0,1,0,8.409,8.49A8.313,8.313,0,0,0,538.269,364.383Zm-.144,13.456a5.025,5.025,0,1,1,5.143-5.062A5.121,5.121,0,0,1,538.124,377.839Z" transform="translate(-519.695 -354.245)" fill="#016c30"/>
+      </g>
+      <rect id="Rectangle_6982" data-name="Rectangle 6982" width="12.484" height="2.978" rx="1.489" transform="matrix(-0.924, -0.382, 0.382, -0.924, 37.136, 54.439)" fill="#e60018"/>
+      <rect id="Rectangle_6983" data-name="Rectangle 6983" width="7.821" height="2.978" rx="1.489" transform="matrix(0.924, -0.382, 0.382, 0.924, 29.905, 39.739)" fill="#016c30"/>
+      <g id="Group_20923" data-name="Group 20923" transform="translate(0 36.751)">
+        <rect id="Rectangle_6984" data-name="Rectangle 6984" width="12.484" height="2.978" rx="1.489" transform="matrix(0.924, -0.382, 0.382, 0.924, 0, 14.936)" fill="#016c30"/>
+        <rect id="Rectangle_6985" data-name="Rectangle 6985" width="7.821" height="2.978" rx="1.489" transform="matrix(-0.924, -0.382, 0.382, -0.924, 7.231, 5.74)" fill="#016c30"/>
+      </g>
+    </g>
+  </g>
+</svg>

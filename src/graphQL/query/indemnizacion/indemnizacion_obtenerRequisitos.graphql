@@ -1,0 +1,16 @@
+query($tipoAtencion: Int!, $tipoPersona: Int!, $token: String!) {
+  indemnizacion_obtenerRequisitos(tipoAtencion: $tipoAtencion, tipoPersona: $tipoPersona, token: $token) {
+    codigo
+    completado
+    mensaje
+    dato {
+      id
+      descripcion
+      tipoAtencion
+      tipoDocumento
+      tipoPersona
+      nombre
+      url
+    }
+  }
+}

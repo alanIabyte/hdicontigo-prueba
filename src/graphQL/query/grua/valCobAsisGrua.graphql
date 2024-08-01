@@ -1,0 +1,22 @@
+query (
+  $poliza: String!
+  $agencia: String!
+  $lineaNegocio: String!
+  $certificado: Int!
+) {
+  valCobAsisGrua(
+    poliza: $poliza
+    agencia: $agencia
+    lineaNegocio: $lineaNegocio
+    certificado: $certificado
+  ) {
+    codigo
+    mensaje
+    completado
+    dato {
+      mensaje
+      dato
+      exitoso
+    }
+  }
+}

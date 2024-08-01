@@ -1,0 +1,66 @@
+mutation (
+  $fechaOcurrencia: AWSDateTime!
+  $vin: String!
+  $color: String!
+  $placas: String
+  $linkFotosVehiculo: String
+  $numeroCertificado: Int!
+  $lineaNegocio: String!
+  $nombreCompletoReporta: String!
+  $reportaConductor: Boolean
+  $reportaAsegurado: Boolean!
+  $telefonoAsegurado: String!
+  $longitud: Float!
+  $latitud: Float!
+  $referencia: String
+  $esTradicional: Boolean!
+  $declaracion: String
+  $longitudD: Float
+  $latitudD: Float
+  $carretera: Int
+  $tipoFalla: String
+  $direccionOrigen: String
+  $direccionDestino: String
+  $idSubEvento: Int
+  $funcionaNeutral: Boolean
+  $vehiculoAvanza: Boolean
+  $tieneCarga: Boolean
+  $aPieDeCalle: Boolean
+  $enTramoCarretero: Boolean
+) {
+  grua_generarReporteGrua(
+    fechaOcurrencia: $fechaOcurrencia
+    vin: $vin
+    color: $color
+    placas: $placas
+    linkFotosVehiculo: $linkFotosVehiculo
+    numeroCertificado: $numeroCertificado
+    lineaNegocio: $lineaNegocio
+    nombreCompletoReporta: $nombreCompletoReporta
+    reportaConductor: $reportaConductor
+    reportaAsegurado: $reportaAsegurado
+    telefonoAsegurado: $telefonoAsegurado
+    longitud: $longitud
+    latitud: $latitud
+    referencia: $referencia
+    esTradicional: $esTradicional
+    declaracion: $declaracion
+    longitudD: $longitudD
+    latitudD: $latitudD
+    carretera: $carretera
+    tipoFalla: $tipoFalla
+    direccionOrigen: $direccionOrigen
+    direccionDestino: $direccionDestino
+    idSubEvento: $idSubEvento
+    funcionaNeutral: $funcionaNeutral
+    vehiculoAvanza: $vehiculoAvanza
+    tieneCarga: $tieneCarga
+    aPieDeCalle: $aPieDeCalle
+    enTramoCarretero: $enTramoCarretero
+  ) {
+    mensaje
+    codigo
+    completado
+    dato
+  }
+}

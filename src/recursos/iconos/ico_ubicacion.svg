@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="104" height="104" viewBox="0 0 104 104">
+  <defs>
+    <clipPath id="clip-Mesa_de_trabajo_9">
+      <rect width="104" height="104"/>
+    </clipPath>
+  </defs>
+  <g id="Mesa_de_trabajo_9" data-name="Mesa de trabajo – 9" clip-path="url(#clip-Mesa_de_trabajo_9)">
+    <circle id="Elipse_105" data-name="Elipse 105" cx="39" cy="39" r="39" transform="translate(13 13)" fill="#036be4"/>
+    <g id="Grupo_76" data-name="Grupo 76" transform="translate(37.274 32.846)">
+      <path id="Trazado_154" data-name="Trazado 154" d="M12.789-43.441C8.822-48.32,0-60.144,0-66.785a14.59,14.59,0,0,1,14.59-14.59,14.592,14.592,0,0,1,14.59,14.59c0,6.641-8.891,18.465-12.789,23.344A2.3,2.3,0,0,1,12.789-43.441Zm1.8-18.48a4.868,4.868,0,0,0,4.863-4.863,4.868,4.868,0,0,0-4.863-4.863,4.868,4.868,0,0,0-4.863,4.863A4.868,4.868,0,0,0,14.59-61.922Z" transform="translate(0 81.375)" fill="none" stroke="#fff" stroke-width="4"/>
+      <ellipse id="Elipse_104" data-name="Elipse 104" cx="4.521" cy="4.238" rx="4.521" ry="4.238" transform="translate(10.139 10.076)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

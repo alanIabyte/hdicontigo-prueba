@@ -1,0 +1,28 @@
+query (
+  $agencia: String!
+  $cis: Int!
+  $lineaNegocio: String!
+  $poliza: String!
+  $token: String!
+) {
+  cobranza_consultaDatosCuentaHabiente(
+    agencia: $agencia
+    cis: $cis
+    lineaNegocio: $lineaNegocio
+    poliza: $poliza
+    token: $token
+  ) {
+    codigo
+    completado
+    mensaje
+    dato {
+        fechaExpiracion
+        idBanco
+        idTipoBanco
+        idTipoTarjeta
+        nombreTarjetaHabiente
+        numeroTarjeta
+        rfc
+    }
+  }
+}

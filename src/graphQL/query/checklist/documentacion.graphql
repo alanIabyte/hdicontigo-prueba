@@ -1,0 +1,19 @@
+query ($numeroReporte: Int!, $token: String!) {
+  obtener_documentacion_siniestro(numeroReporte: $numeroReporte, token: $token) {
+    codigo
+    mensaje
+    dato {
+      estatus
+      coberturaPoliza
+      tipoTramite
+      tipoAsegurado
+      fechaAltaClienteUnix
+      linkActual
+      porcentajeDocumentos
+      metodoPago
+      fechaCita
+      oficinaCita
+    }
+    completado
+  }
+}

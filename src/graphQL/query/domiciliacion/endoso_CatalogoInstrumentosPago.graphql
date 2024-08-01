@@ -1,0 +1,11 @@
+query {
+  endoso_CatalogoInstrumentosPago {
+    codigo
+    completado
+    dato {
+      idTipoBanco
+      nombreTipoPago
+    }
+    mensaje
+  }
+}

@@ -1,0 +1,9 @@
+[
+  {
+    _id: "wizeline",
+    display_name: "Wizeline",
+    base_path: "/",
+    is_default_website: true,
+    domains: [],
+  },
+];

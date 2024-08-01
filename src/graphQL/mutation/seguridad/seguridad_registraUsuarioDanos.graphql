@@ -1,0 +1,21 @@
+query (
+  $lineaNegocio: String!
+  $numeroPoliza: String!
+  $rfc: String!
+  $numeroTelefono: String!
+  $contrasena: String!
+  $contrasenaConfirma: String!
+) {
+  seguridad_registraUsuarioDanos(
+    lineaNegocio: $lineaNegocio
+    numeroPoliza: $numeroPoliza
+    rfc: $rfc
+    numeroTelefono: $numeroTelefono
+    contrasena: $contrasena
+    contrasenaConfirma: $contrasenaConfirma
+  ) {
+    codigo
+    completado
+    mensaje
+  }
+}

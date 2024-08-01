@@ -1,0 +1,14 @@
+query (
+  $numeroReporte: Int!,
+  $numeroTelefono: String!
+) {
+  valida_accesoReporte(
+    numeroReporte: $numeroReporte,
+    numeroTelefono: $numeroTelefono
+  ) {
+    codigo
+    mensaje
+    dato
+    completado
+  }
+}

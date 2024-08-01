@@ -1,0 +1,14 @@
+.navlink {
+  color: var(--color-negro-puro);
+  cursor: pointer;
+  text-decoration: none;  
+}
+
+.navlink:hover {
+  text-decoration: underline;
+}
+
+.navlink:active {
+  text-decoration: none;
+  font-weight: 700;
+}

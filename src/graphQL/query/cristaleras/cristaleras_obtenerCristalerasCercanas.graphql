@@ -1,0 +1,24 @@
+query(
+  $latitud: Float!
+  $longitud: Float!
+) {
+  cristaleras_obtenerCristalerasCercanas(
+    latitud: $latitud
+    longitud: $longitud
+  ) {
+    mensaje
+	  codigo
+	  completado
+	  dato {
+	    direccion
+      colonia
+      codigoPostal
+      municipio
+      estado
+      latitud
+      longitud
+      distanciaKm
+      nombreComercial
+    }
+  }
+}

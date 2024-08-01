@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PantallaIngresoDePolizaOcr se despliega correctamente 1`] = `
+<div
+  className="sc-bmzYkS bYwSAh"
+>
+  <div>
+    Soy un contenedor simulado
+  </div>
+  <div
+    className="sc-koXPp jmnfDB"
+  >
+    Coloca el número de póliza completo dentro del recuadro
+  </div>
+  <div
+    className="sc-bXCLTC dyEVhy"
+  >
+    <div
+      className="sc-jsJBEP dNLgCt"
+    >
+      <video
+        autoPlay={true}
+        className="web-cam-estandar"
+        muted={false}
+        playsInline={true}
+        style={Object {}}
+      />
+      
+      <div
+        className="sc-fUnMCh Snmdi"
+      >
+        <div
+          className="sc-hzhJZQ eGXQl"
+        >
+          <button
+            className="sc-ikkxIA gPFznX"
+            onClick={[Function]}
+          >
+            
+          </button>
+        </div>
+        
+        
+      </div>
+      <div
+        className="sc-iHGNWf hasxHt"
+      >
+        <div
+          className="sc-dtBdUo YTcqN"
+        />
+        <div
+          className="sc-kOHTFB ikXRqW"
+        />
+        <div
+          className="sc-dtInlm iOYRiK"
+        />
+        <div
+          className="sc-kOPcWz dIFTXR"
+        />
+      </div>
+      <div
+        className="sc-eeDRCY hPbShr"
+      >
+        <div
+          className="sc-dcJsrY sc-fHjqPf cybklx dTpplX"
+        >
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

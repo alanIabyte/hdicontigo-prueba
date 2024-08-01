@@ -1,0 +1,17 @@
+query($telefono: String!) {
+  cobranza_consultaHome(numeroTelefono: $telefono) {
+    mensaje
+    completado
+    codigo
+    dato {
+      totalPolizasDanos
+      totalPolizasSiniestros
+      totalRecibosDanos
+      totalRecibosSiniestro
+      totalSiniestrosAutos
+      totalSiniestrosDanos
+      totalPolizasGmm
+      totalReembolsosGmm
+    }
+  }
+}

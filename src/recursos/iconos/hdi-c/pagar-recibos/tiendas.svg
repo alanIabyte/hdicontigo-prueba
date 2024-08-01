@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="54" viewBox="0 0 54 54">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_7045" data-name="Rectangle 7045" width="54" height="54" transform="translate(55 570)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_23" data-name="Mask Group 23" transform="translate(-55 -570)" clip-path="url(#clip-path)">
+    <g id="Group_21168" data-name="Group 21168" transform="translate(5.085 4.812)">
+      <g id="Group_21167" data-name="Group 21167" transform="translate(59 573.998)">
+        <path id="Trazado_4568" data-name="Trazado 4568" d="M322.324,575.18H293.192a1.2,1.2,0,0,0-1.164.936l-2.182,11.267a3.583,3.583,0,1,0,7.166,0,3.583,3.583,0,1,0,7.166,0,3.583,3.583,0,1,0,7.166,0,3.583,3.583,0,1,0,7.166,0,3.583,3.583,0,1,0,7.166,0l-2.185-11.275a1.194,1.194,0,0,0-1.164-.934Z" transform="translate(-289.846 -575.174)" fill="none" stroke="#006729" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Trazado_4583" data-name="Trazado 4583" d="M291.658,601.264h30.555" transform="translate(-289.022 -564.877)" fill="none" stroke="#006729" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <g id="Group_21166" data-name="Group 21166" transform="translate(2.1 21.325)">
+          <path id="Trazado_4569" data-name="Trazado 4569" d="M313.028,603.9V589.089" transform="translate(-281.398 -589.089)" fill="none" stroke="#006729" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+          <path id="Trazado_4569-2" data-name="Trazado 4569" d="M291.289,603.9V589.089" transform="translate(-291.289 -589.089)" fill="none" stroke="#006729" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        </g>
+      </g>
+      <path id="Path_12125" data-name="Path 12125" d="M14,0H0" transform="matrix(0.07, -0.998, 0.998, 0.07, 66.098, 587.966)" fill="none" stroke="#e60018" stroke-linecap="round" stroke-width="3"/>
+      <path id="Path_12126" data-name="Path 12126" d="M14,0H0" transform="matrix(0.052, -0.999, 0.999, 0.052, 73.157, 587.974)" fill="none" stroke="#e60018" stroke-linecap="round" stroke-width="3"/>
+      <path id="Path_12127" data-name="Path 12127" d="M14,0H0" transform="translate(87.93 587.917) rotate(-98)" fill="none" stroke="#e60018" stroke-linecap="round" stroke-width="3"/>
+      <path id="Path_12128" data-name="Path 12128" d="M14,0H0" transform="matrix(-0.07, -0.998, 0.998, -0.07, 80.577, 588.017)" fill="none" stroke="#e60018" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+mutation (
+  $audioURL: String!,
+  $conViolencia: Boolean!,
+  $caracteristicas: String!,
+  $colorVehiculo: String!,
+  $declaracion: Boolean!,
+  $duplicado: Boolean!,
+  $folio911: String!,
+  $nombreUltimoConductor: String!,
+  $razonDuplicado: String!,
+  $ultimoConductor: Boolean!,
+  $fechaOcurrencia: String!,
+  $horaRobo: String!,
+  $telefono: String!,
+  $email: String!,
+  $numeroPoliza: String!,
+  $numeroSerie: String!,
+  $atencionLugarRobo: Boolean!,
+  $latAtencion: Float!,
+  $lngAtencion: Float!,
+  $referenciasUbicacionRobo: String!,
+  $latUbicacionRobo: Float!,
+  $lngUbicacionRobo: Float!,
+) {
+  robo_generarReporte(
+    audioURL: $audioURL,
+    conViolencia: $conViolencia,
+    caracteristicas: $caracteristicas,
+    colorVehiculo: $colorVehiculo,
+    declaracion: $declaracion,
+    duplicado: $duplicado,
+    folio911: $folio911,
+    nombreUltimoConductor: $nombreUltimoConductor,
+    razonDuplicado: $razonDuplicado,
+    ultimoConductor: $ultimoConductor,
+    fechaOcurrencia: $fechaOcurrencia,
+    horaRobo: $horaRobo,
+    telefono: $telefono,
+    email: $email,
+    numeroPoliza: $numeroPoliza,
+    numeroSerie: $numeroSerie,
+    atencionLugarRobo: $atencionLugarRobo,
+    latAtencion: $latAtencion,
+    lngAtencion: $lngAtencion,
+    referenciasUbicacionRobo: $referenciasUbicacionRobo,
+    latUbicacionRobo: $latUbicacionRobo,
+    lngUbicacionRobo: $lngUbicacionRobo,
+  ) {
+    mensaje
+    codigo
+    completado
+    dato
+  }
+}

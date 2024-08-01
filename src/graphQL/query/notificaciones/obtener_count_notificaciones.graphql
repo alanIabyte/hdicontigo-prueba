@@ -1,0 +1,10 @@
+query($usuario: String!) {
+  notificaciones_obtenerNotificacionesCount(usuario: $usuario) {
+    codigo
+    completado
+    mensaje
+    dato {
+      notificacionescount
+    }
+  }
+}

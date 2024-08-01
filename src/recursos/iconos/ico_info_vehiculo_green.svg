@@ -1,0 +1,12 @@
+<svg id="directions_car_filled_black_24dp_1_" data-name="directions_car_filled_black_24dp (1)" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Grupo_3600" data-name="Grupo 3600">
+    <rect id="Rectángulo_21" data-name="Rectángulo 21" width="24" height="24" fill="none"/>
+  </g>
+  <g id="Grupo_3602" data-name="Grupo 3602">
+    <g id="Grupo_3601" data-name="Grupo 3601">
+      <path id="Trazado_10844" data-name="Trazado 10844" d="M18.92,6.01A1.494,1.494,0,0,0,17.5,5H6.5A1.5,1.5,0,0,0,5.08,6.01L3,12v8a1,1,0,0,0,1,1H5a1,1,0,0,0,1-1V19H18v1a1,1,0,0,0,1,1h1a1,1,0,0,0,1-1V12ZM6.85,7H17.14l1.04,3H5.81ZM19,17H5V12H19Z" fill="#006c30"/>
+      <circle id="Elipse_12" data-name="Elipse 12" cx="1.5" cy="1.5" r="1.5" transform="translate(6 13)" fill="#006c30"/>
+      <circle id="Elipse_13" data-name="Elipse 13" cx="1.5" cy="1.5" r="1.5" transform="translate(15 13)" fill="#006c30"/>
+    </g>
+  </g>
+</svg>

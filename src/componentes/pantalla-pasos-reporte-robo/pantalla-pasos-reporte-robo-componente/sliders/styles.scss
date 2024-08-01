@@ -1,0 +1,90 @@
+.contenedor-padre {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: space-between;
+  height: calc(100vh - 92px);
+}
+
+.contenedor-imagenes-slider {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  gap: 15px;
+
+  & {
+    @media (min-width: 374px) {
+      gap: 40px;
+    }
+  }
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.imagen-grande {
+  width: 130px;
+  & {
+    @media (min-width: 374px) and (max-width: 414px) {
+      width: 150px;
+    }
+
+    @media (min-width: 413px) {
+      width: 170px; 
+    }
+  }
+}
+
+.imagen-pequena {
+  width: 40px;
+  align-self: center;
+  cursor: pointer;
+  & {
+    @media (min-width: 374px) and (max-width: 413px) {
+      width: 50px;
+    }
+
+    @media (min-width: 413px) {
+      width: 60px;
+    }
+  }
+}
+
+.contenedor-flecha-pasos-reporte-robo {
+  display: inline-flex;
+  position: absolute;
+  top: 50px;
+  left: 35px;
+  z-index: 0;
+  height: 450px;
+}
+
+.contenedor-flecha-pasos-recupera-vehciulo {
+  display: inline-flex;
+  position: absolute;
+  top: 50px;
+  left: 35px;
+  z-index: 0;
+  height: 400px;
+}
+
+.color-contenedor-verde {
+  display: flex;
+  background-color: white !important;
+  width: 40px !important;
+  height: 40px !important;
+  margin-top: 20px;
+  padding: 5px !important;
+  align-content: center;
+  justify-content: center;
+  z-index: 2;
+  color: green;
+}
+
+.color-contenedor-verde h6 {
+  color: var(--color-verde-normal) !important;
+  margin: auto;
+  font-family: var(--fuente-montserrat-bold);
+  font-size: 20px;
+}

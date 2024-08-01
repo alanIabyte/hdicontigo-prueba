@@ -1,0 +1,52 @@
+query (
+    $tipoEndoso: String!
+    $numeroReporte: Int!
+    $numeroPoliza: String!
+    $certificado: Int!
+    $lineaNegocio: String!
+    $agencia: String!
+    $nombreTarjetaHabiente: String!
+    $banco: String!
+    $tipoTarjeta: String!
+    $numeroTarjeta: String!
+    $confirmaNumeroTarjeta: String!
+    $fechaExpiracion: String!
+    $tipoCuenta: String!
+    $cuentaClabe: String!
+    $confirmaClabe:String!
+    $rfc: String!
+    $domiciliarPago: Boolean!
+    $latitud: String!
+    $longitud: String!
+    $numeroTelefono: String!
+    $token: String!
+) {
+  endoso_condutoCobroAutos(
+    tipoEndoso: $tipoEndoso
+    numeroReporte: $numeroReporte
+    numeroPoliza: $numeroPoliza
+    certificado: $certificado
+    lineaNegocio: $lineaNegocio
+    agencia: $agencia
+    nombreTarjetaHabiente: $nombreTarjetaHabiente
+    banco: $banco
+    tipoTarjeta: $tipoTarjeta
+    numeroTarjeta: $numeroTarjeta
+    confirmaNumeroTarjeta: $confirmaNumeroTarjeta
+    fechaExpiracion: $fechaExpiracion
+    tipoCuenta: $tipoCuenta
+    cuentaClabe: $cuentaClabe
+    confirmaClabe: $confirmaClabe
+    rfc: $rfc
+    domiciliarPago: $domiciliarPago
+    latitud: $latitud
+    longitud: $longitud
+    numeroTelefono: $numeroTelefono
+    token: $token
+) {
+    codigo
+    completado
+    dato
+    mensaje
+  }
+}

@@ -1,0 +1,22 @@
+mutation (
+  $numeroTelefono: String!
+  $lineaNegocio: String!
+  $agencia: String!
+  $numeroPoliza: String!
+  $cis: Int!
+  $correo: String!
+) {
+  registrar_poliza(
+    numeroTelefono: $numeroTelefono
+    lineaNegocio: $lineaNegocio
+    agencia: $agencia
+    numeroPoliza: $numeroPoliza
+    cis: $cis
+    correo: $correo
+  ) {
+    codigo
+    completado
+    dato
+    mensaje
+  }
+}

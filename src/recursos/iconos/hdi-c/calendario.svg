@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.493" height="30.493" viewBox="0 0 30.493 30.493">
+  <g id="streamlinehq-calendar-1-interface-essential-48" transform="translate(0.25 0.25)">
+    <rect id="Rectángulo_1" data-name="Rectángulo 1" width="28.493" height="24.694" rx="1.5" transform="translate(0.75 4.549)" fill="none" stroke="#006c30" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Línea_1" data-name="Línea 1" y1="6.648" transform="translate(8.348 0.75)" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Línea_2" data-name="Línea 2" y1="6.648" transform="translate(21.645 0.75)" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect id="Rectángulo_2" data-name="Rectángulo 2" width="5.699" height="5.699" transform="translate(6.449 18.045)" fill="none" stroke="#006c30" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Línea_3" data-name="Línea 3" y2="11.397" transform="translate(17.846 12.147)" fill="none" stroke="#006c30" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <rect id="Rectángulo_3" data-name="Rectángulo 3" width="12" height="12" transform="translate(11.75 11.743)" fill="none" stroke="#006c30" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Línea_4" data-name="Línea 4" x2="11.397" transform="translate(12.147 17.846)" fill="none" stroke="#006c30" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

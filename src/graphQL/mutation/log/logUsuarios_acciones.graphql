@@ -1,0 +1,15 @@
+mutation (
+  $usuario: String!
+  $proceso_id: Int!
+  $accion_id: Int!
+  $listaDetalle: [ListaDetalle!]!
+) {
+  logUsuarios_acciones(
+    usuario: $usuario
+    proceso_id: $proceso_id
+    accion_id: $accion_id
+    listaDetalle: $listaDetalle
+  ) {
+    mensaje
+  }
+}

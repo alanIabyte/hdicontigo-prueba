@@ -1,0 +1,10 @@
+query ($numeroSiniestro: String!, $base64: String!) {
+  guardarImgRuta(numeroSiniestro: $numeroSiniestro, base64: $base64) {
+    codigo
+    completado
+    mensaje
+    dato {
+      guardado
+    }
+  }
+}

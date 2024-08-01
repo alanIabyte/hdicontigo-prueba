@@ -1,0 +1,18 @@
+query ($lineaNegocio: String!, $rfc: String!) {
+  busqueda_buscarPolizas(lineaNegocio: $lineaNegocio, rfc: $rfc) {
+    codigo
+    completado
+    mensaje
+    dato {
+        lineaNegocio
+	    rfc
+	    agenciaId
+	    polizaId
+	    inciso
+	    numeroSerie
+	    descripcionVehiculo
+	    telefonoCasa
+	    telefonoOficina
+    }
+  }
+}

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#EncabezadoPolizasSiniestradas se despliega correctamente 1`] = `
+<div
+  className="sc-ikkxIA eXaLCX"
+>
+  <div
+    className="sc-fqkvVR sc-feUZmu wQLUp iAiTCO"
+    id="tituloEncabezado"
+  >
+    <img
+      className="sc-fUnMCh kOFFOF"
+      src="test-file-stub"
+    />
+    Hola, usuario
+  </div>
+</div>
+`;

@@ -1,0 +1,20 @@
+<svg id="Grupo_21701" data-name="Grupo 21701" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_7129" data-name="Rectángulo 7129" width="30" height="30" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_21644" data-name="Grupo 21644" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <g id="Grupo_21643" data-name="Grupo 21643" transform="translate(7.577 13.695)">
+      <g id="Grupo_21640" data-name="Grupo 21640" transform="translate(6.118)">
+        <ellipse id="Elipse_1347" data-name="Elipse 1347" cx="1.305" cy="1.305" rx="1.305" ry="1.305" fill="#006c30"/>
+      </g>
+      <g id="Grupo_21641" data-name="Grupo 21641">
+        <ellipse id="Elipse_1348" data-name="Elipse 1348" cx="1.305" cy="1.305" rx="1.305" ry="1.305" fill="#006c30"/>
+      </g>
+      <g id="Grupo_21642" data-name="Grupo 21642" transform="translate(12.235)">
+        <ellipse id="Elipse_1349" data-name="Elipse 1349" cx="1.305" cy="1.305" rx="1.305" ry="1.305" fill="red"/>
+      </g>
+    </g>
+  </g>
+</svg>

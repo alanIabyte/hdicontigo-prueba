@@ -1,0 +1,16 @@
+query($usuario: String!) {
+  notificaciones_obtenerNotificaciones(usuario: $usuario) {
+    codigo
+    completado
+    mensaje
+    dato {
+      id
+      titulo
+      contenido
+      leido
+      tipo
+      infoadicional
+      fechaalta
+    }
+  }
+}

@@ -1,0 +1,14 @@
+query($categoria: Int!) {
+  preguntas_preguntasFrecuentes(categoria: $categoria) {
+    codigo
+    completado
+    mensaje
+    dato {
+      id
+      orden
+      pregunta
+      respuesta
+      categoria
+    }
+  }
+}

@@ -1,0 +1,16 @@
+query ($numeroPoliza: String!, $anio: String!, $documento: String!) {
+  gmm_ObtCredencialDigital(
+    numeroPoliza: $numeroPoliza
+    anio: $anio
+    documento: $documento
+  ) {
+    mensaje
+    codigo
+    completado
+    dato {
+      code
+      status
+      fileBase64
+    }
+  }
+}

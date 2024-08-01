@@ -1,0 +1,15 @@
+query ($telefono: String!) {
+  cobranza_consultaDiasGracia(numeroTelefono: $telefono) {
+    mensaje
+    completado
+    codigo
+    dato {
+      cotizacion
+      inciso
+      lineaNegocio
+      oficina
+      poliza
+      notificacionDias
+    }
+  }
+}

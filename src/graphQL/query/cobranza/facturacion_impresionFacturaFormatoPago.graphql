@@ -1,0 +1,18 @@
+query (
+  $numeroRecibo: Int!
+  ) {
+  facturacion_impresionFacturaFormatoPago(
+    numeroRecibo: $numeroRecibo
+    ) {
+    codigo
+    completado
+    mensaje
+    dato {
+      estatus
+      mensaje
+      nombreArchivo
+      pdf
+      xml
+    }
+  }
+}

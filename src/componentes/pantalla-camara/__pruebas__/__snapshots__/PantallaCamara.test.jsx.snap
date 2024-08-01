@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PantallaCamara se despliega correctamente 1`] = `
+<div
+  className="sc-imWYAI kuCsdY"
+>
+  <div>
+    Soy un contenedor simulado
+  </div>
+  <div
+    className="sc-gsFSXq fWHMBl"
+  >
+    <div
+      className="sc-kAyceB eXPBbd"
+    >
+      <div
+        className="sc-jXbUNg gYSsGX"
+      >
+        <video
+          autoPlay={true}
+          className="camara"
+          muted={false}
+          playsInline={true}
+          style={Object {}}
+        />
+        
+      </div>
+      <div
+        className="sc-fqkvVR cUUdgD"
+      >
+        <div
+          className="sc-iGgWBj iXKWKj"
+          onClick={[Function]}
+        >
+          <input
+            accept="image/*"
+            className="sc-kpDqfm ZnOKk"
+            onChange={[Function]}
+            type="file"
+          />
+          <img
+            className="sc-dhKdcB griuCs"
+            src={null}
+          />
+        </div>
+        <div
+          className="sc-dcJsrY hVtHbj"
+        >
+          <button
+            className="sc-aXZVg gOxXbQ"
+            onClick={[Function]}
+          />
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+`;

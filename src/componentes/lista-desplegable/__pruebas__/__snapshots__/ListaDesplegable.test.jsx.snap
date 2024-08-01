@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Lista Desplegable se despliega correctamente 1`] = `
+<div
+  className="sc-kpDqfm sc-ikkxIA bTCkFB gKSbxM"
+>
+  <div
+    className="sc-kpDqfm sc-jsJBEP bTCkFB fPA-DAX"
+  >
+    
+  </div>
+  <div
+    className="sc-feUZmu enwbgs"
+    onClick={[Function]}
+  >
+    <div
+      className="sc-dAbbOL"
+    >
+      <div
+        className="sc-fUnMCh fzoNkI"
+      >
+        test 1
+      </div>
+      <div
+        className="sc-hmdomO leQpvF"
+      >
+        <div
+          className="sc-bXCLTC eKSzWW"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-hzhJZQ dpKQE"
+  >
+    <div
+      className="sc-fHjqPf kRRpiB"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      test 1
+    </div>
+    <div
+      className="sc-fHjqPf gFJWev"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex={1}
+    >
+      test 2
+    </div>
+  </div>
+</div>
+`;

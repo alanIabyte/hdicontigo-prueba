@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Documentacion se despliega correctamente 1`] = `
+<div
+  className="sc-ikkxIA"
+>
+  <div
+    className="sc-kpDqfm sc-dAbbOL bTCkFB hdZOgq"
+  >
+    Estatus de la documentación:
+  </div>
+  <div
+    className="sc-kpDqfm sc-feUZmu bTCkFB jMhLTa"
+  />
+  <div
+    className="sc-iGgWBj sc-fUnMCh fgQoGq kBlNPQ"
+  >
+    Para ver más detalles del estatus de tu documentación visita
+     
+    <a
+      rel="noreferrer"
+      target="_blank"
+    >
+      HDI Documenta
+    </a>
+  </div>
+</div>
+`;

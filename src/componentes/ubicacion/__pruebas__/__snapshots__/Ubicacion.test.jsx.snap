@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ubicacion se despliega correctamente 1`] = `
+<div
+  className="sc-feUZmu kqCxUB"
+>
+  Cargando mapa ...
+</div>
+`;

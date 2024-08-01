@@ -1,0 +1,24 @@
+mutation (
+  $codigoActivacion: Int!
+  $contrasenaActual: String!
+  $contrasenaNueva: String!
+  $token: String!
+  $usuario: String!
+  $verificarCodigoActivacion: Boolean!
+) {
+  asignacion_credenciales(
+    codigoActivacion: $codigoActivacion
+    contrasenaNueva: $contrasenaNueva
+    verificarCodigoActivacion: $verificarCodigoActivacion
+    contrasenaActual: $contrasenaActual
+    token: $token
+    usuario: $usuario
+  ) {
+    codigo
+    completado
+    mensaje
+    dato {
+      respuesta
+    }
+  }
+}

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#EncabezadoReporte se despliega con ajustador asignado 1`] = `
+<div
+  className="sc-iHGNWf dhZIfL"
+>
+  <div>
+    Loading...
+  </div>
+</div>
+`;
+
+exports[`#EncabezadoReporte se despliega correctamente 1`] = `
+<div
+  className="sc-iHGNWf dhZIfL"
+>
+  <div>
+    Loading...
+  </div>
+</div>
+`;

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="104" height="104" viewBox="0 0 104 104">
+  <defs>
+    <clipPath id="clip-Mesa_de_trabajo_8">
+      <rect width="104" height="104"/>
+    </clipPath>
+  </defs>
+  <g id="Mesa_de_trabajo_8" data-name="Mesa de trabajo – 8" clip-path="url(#clip-Mesa_de_trabajo_8)">
+    <rect width="104" height="104" fill="#fff"/>
+    <g id="Rectángulo_31" data-name="Rectángulo 31" transform="translate(0 18)" fill="none" stroke="#006c30" stroke-width="8">
+      <rect width="90" height="86" rx="11" stroke="none"/>
+      <rect x="4" y="4" width="82" height="78" rx="7" fill="none"/>
+    </g>
+    <rect id="Rectángulo_32" data-name="Rectángulo 32" width="104" height="27" transform="translate(0 3)" fill="#fff"/>
+    <rect id="Rectángulo_34" data-name="Rectángulo 34" width="17" height="51" transform="translate(79 25)" fill="#fff"/>
+    <rect id="Rectángulo_33" data-name="Rectángulo 33" width="30" height="33" transform="translate(77 75)" fill="#fff"/>
+    <g id="Rectángulo_30" data-name="Rectángulo 30" transform="translate(14)" fill="none" stroke="#006c30" stroke-width="8">
+      <rect width="90" height="86" rx="11" stroke="none"/>
+      <rect x="4" y="4" width="82" height="78" rx="7" fill="none"/>
+    </g>
+    <path id="Trazado_153" data-name="Trazado 153" d="M10.179-30.874H2.036A2.035,2.035,0,0,0,0-28.838V-4.409A2.035,2.035,0,0,0,2.036-2.374c1.125,0,2.734-.912,2.734-2.036V-9.874h5.409c5.612,0,10.179-5.209,10.179-10.764A10.278,10.278,0,0,0,10.179-30.874Zm0,16.286L4.77-14.645v-11.1h5.409c3.368,0,5.591,1.743,5.591,5.111S13.544-14.589,10.179-14.589ZM30.537-30.874H22.393a2.036,2.036,0,0,0-2.036,2.036V-4.409a2.036,2.036,0,0,0,2.036,2.036h8.143c7.857,0,13.608-6.45,13.608-14.307S38.393-30.874,30.537-30.874Zm0,23H25.395V-25.749h5.142c5.612,0,8.983,3.513,8.983,9.068,0,5.288-3.5,8.367-8.983,8.807ZM65.145-28.838c0,1.124-.912,3.089-2.036,3.089H49.645v6.125h9.393c1.124,0,2.036,1.876,2.036,2.943a2.073,2.073,0,0,1-2.036,2.036h-.416l-8.977.057V-4.409c0,1.124-1.7,1.979-2.822,1.979a2.036,2.036,0,0,1-2.036-2.036V-28.9a2.025,2.025,0,0,1,2.036-1.979H63.109A2.035,2.035,0,0,1,65.145-28.838Z" transform="translate(26.855 60.874)" fill="#006c30"/>
+    <circle id="Elipse_102" data-name="Elipse 102" cx="4" cy="4" r="4" transform="translate(73 96)" fill="#006c30"/>
+    <circle id="Elipse_103" data-name="Elipse 103" cx="4" cy="4" r="4" transform="translate(0 26)" fill="#006c30"/>
+  </g>
+</svg>

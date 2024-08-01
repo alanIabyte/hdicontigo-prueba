@@ -1,0 +1,13 @@
+query ($numeroReporte: Int!) {
+  encuesta_obtenerEncuestasPendientes(numeroReporte: $numeroReporte) {
+    codigo
+    completado
+    mensaje
+    dato {
+      encuesta
+      evaluado
+      lineaNegocio
+      siniestro
+    }
+  }
+}

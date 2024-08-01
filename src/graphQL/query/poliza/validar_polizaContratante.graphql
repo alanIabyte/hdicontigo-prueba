@@ -1,0 +1,20 @@
+query(
+  $agencia: String!
+  $cis: Int!
+  $lineaNegocio: String!
+  $poliza: String!
+  $rfc: String!
+) {
+  validar_contratantePoliza(
+    agencia: $agencia
+    cis: $cis
+    lineaNegocio: $lineaNegocio
+    poliza: $poliza
+    rfc: $rfc
+  ) {
+    codigo
+    completado
+    dato
+    mensaje
+  }
+}

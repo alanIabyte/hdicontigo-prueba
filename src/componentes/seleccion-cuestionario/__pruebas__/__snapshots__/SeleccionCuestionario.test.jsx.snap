@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#Seleccion Cuestionario se despliega correctamente con respuesta 1`] = `
+<div
+  className="sc-ikkxIA"
+  id="componentePregunta"
+>
+  <div
+    className="sc-imWYAI sc-dAbbOL eYGTZs deLeNf"
+    id="textoPregunta"
+  >
+    ¿Hay otro vehículo involucrado u otros bienes afectados?
+    <div
+      className="sc-imWYAI sc-feUZmu eYGTZs gFbaoE"
+    >
+      <button
+        className="sc-fUnMCh dmeRBQ"
+        id="botonSi"
+        onClick={[Function]}
+        type="submit"
+      >
+        Sí
+      </button>
+      <button
+        className="sc-hzhJZQ kbFIPs"
+        id="botonNo"
+        onClick={[Function]}
+        type="submit"
+      >
+        No
+      </button>
+    </div>
+  </div>
+  <div
+    className="sc-eldPxv sc-fHjqPf jeNqaZ jiAKDD"
+    id="error"
+  >
+    Campo requerido para poder continuar
+  </div>
+</div>
+`;
+
+exports[`#Seleccion Cuestionario se despliega correctamente sin respuesta 1`] = `
+<div
+  className="sc-ikkxIA"
+  id="componentePregunta"
+>
+  <div
+    className="sc-imWYAI sc-dAbbOL eYGTZs deLeNf"
+    id="textoPregunta"
+  >
+    ¿Hay personas lesionadas?
+    <div
+      className="sc-imWYAI sc-feUZmu eYGTZs gFbaoE"
+    >
+      <button
+        className="sc-fUnMCh UPsbs"
+        id="botonSi"
+        onClick={[Function]}
+        type="submit"
+      >
+        Sí
+      </button>
+      <button
+        className="sc-hzhJZQ kbFIPs"
+        id="botonNo"
+        onClick={[Function]}
+        type="submit"
+      >
+        No
+      </button>
+    </div>
+  </div>
+  <div
+    className="sc-eldPxv sc-fHjqPf jeNqaZ jiAKDD"
+    id="error"
+  >
+    Campo requerido para poder continuar
+  </div>
+</div>
+`;

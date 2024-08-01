@@ -1,0 +1,8 @@
+mutation ($usuario: String!, $token: String!) {
+  cerrar_sesion(token: $token, usuario: $usuario) {
+    codigo
+    completado
+    dato
+    mensaje
+  }
+}

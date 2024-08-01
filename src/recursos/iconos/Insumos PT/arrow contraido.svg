@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="chevron_left-24px" transform="translate(0 24) rotate(-90)">
+    <g id="Grupo_25" data-name="Grupo 25">
+      <path id="Trazado_10754" data-name="Trazado 10754" d="M0,0H24V24H0Z" fill="none"/>
+    </g>
+    <g id="Grupo_28" data-name="Grupo 28">
+      <g id="Grupo_27" data-name="Grupo 27">
+        <g id="Grupo_26" data-name="Grupo 26">
+          <path id="Trazado_10755" data-name="Trazado 10755" d="M15.29,15.46l-3.88-3.88L15.29,7.7a1,1,0,0,0,0-1.41h0a1,1,0,0,0-1.41,0L9.29,10.88a1,1,0,0,0,0,1.41l4.59,4.59a1,1,0,0,0,1.41,0h0A1.017,1.017,0,0,0,15.29,15.46Z" fill="#333"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#PantallaVerificarTelefono se despliega correctamente 1`] = `
+<div
+  className="sc-fHjqPf eHsjVd"
+  id="PantallaVerificarTelefono"
+>
+  <div>
+    Soy un contenedor simulado
+  </div>
+  <div
+    className="sc-bXCLTC hoMFNk"
+  >
+    <div
+      className="sc-iGgWBj sc-feUZmu fgQoGq dJAwLG"
+    >
+      Te enviaremos un SMS con un código de verificación al número con la siguiente terminación:
+    </div>
+    <div
+      className="sc-fqkvVR sc-dAbbOL wQLUp dvEiOD"
+    >
+      *** *** 5555
+    </div>
+    <div
+      className="sc-ikkxIA ghoAfh"
+    >
+      <div>
+        Soy un contenedor simulado
+      </div>
+    </div>
+  </div>
+</div>
+`;

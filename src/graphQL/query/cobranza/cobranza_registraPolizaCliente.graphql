@@ -1,0 +1,26 @@
+query (
+  $agencia: String!
+  $lineaNegocio: String!
+  $numeroPoliza: String!
+  $cis: Int!
+  $numeroTelefono: String!
+  $correo: String!
+  $vin: String!
+  $rfc: String!
+) {
+  cobranza_registraPolizaCliente(
+    lineaNegocio: $lineaNegocio
+    numeroPoliza: $numeroPoliza
+    cis: $cis
+    numeroTelefono: $numeroTelefono
+    agencia: $agencia
+    correo: $correo
+    vin: $vin
+    rfc: $rfc
+  ) {
+    codigo
+    completado
+    dato
+    mensaje
+  }
+}

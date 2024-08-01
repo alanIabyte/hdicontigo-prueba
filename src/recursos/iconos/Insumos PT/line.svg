@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="chevron_left-24px" transform="translate(24) rotate(90)">
+    <g id="Grupo_25" data-name="Grupo 25">
+      <path id="Trazado_10754" data-name="Trazado 10754" d="M0,0H24V24H0Z" fill="none"/>
+    </g>
+    <g id="plus" transform="translate(2.366 22) rotate(-90)">
+      <line id="Línea_17" data-name="Línea 17" x2="10" transform="translate(5 9.634)" fill="none" stroke="#afafaf" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

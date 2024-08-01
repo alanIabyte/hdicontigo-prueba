@@ -1,0 +1,3 @@
+import PantallaFormularioInformacionVehiculoCristal from "./pantalla-formulario-informacion-vehiculo-cristal-componente/PantallaFormularioInformacionVehiculoCristal";
+
+export default PantallaFormularioInformacionVehiculoCristal;

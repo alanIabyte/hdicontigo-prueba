@@ -1,0 +1,18 @@
+query ($urlJson: String!) {
+  gmm_solicitarReembolsoDocsV2(urlJson: $urlJson) {
+    mensaje
+    codigo
+    completado
+    dato {
+      status
+      doctosCorrectos {
+        claimId
+        folio
+        id
+        idDocumento
+        message
+        nombre
+      }
+    }
+  }
+}

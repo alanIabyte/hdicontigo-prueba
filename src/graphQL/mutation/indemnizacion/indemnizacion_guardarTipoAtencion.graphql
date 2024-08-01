@@ -1,0 +1,18 @@
+mutation (
+  $tipoAtencion: Int!
+  $numeroSiniestro: String!
+  $numeroReporte: Int!
+  $token: String!
+) {
+  indemnizacion_guardarTipoAtencion(
+    tipoAtencion: $tipoAtencion
+    numeroSiniestro: $numeroSiniestro
+    numeroReporte: $numeroReporte
+    token: $token
+  ) {
+    mensaje
+	  codigo
+	  completado
+	  dato
+  }
+}

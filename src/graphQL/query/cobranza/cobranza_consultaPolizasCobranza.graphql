@@ -1,0 +1,25 @@
+query ($telefono: String!, $token: String!) {
+  cobranza_consultaPolizasCobranza(numeroTelefono: $telefono, token: $token) {
+    codigo
+    completado
+    mensaje
+    dato {
+      polizaFormato
+      poliza
+      rfc
+      numSerie
+      oficina
+      mensajePago
+      lineaNegocio
+      inciso
+      fechaTermino
+      fechaInicio
+      estatus
+      emision
+      descripcion
+      colorSemaforo
+      agente
+      aplicaReembolso
+    }
+  }
+}

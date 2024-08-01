@@ -1,0 +1,19 @@
+mutation ($usuario: String!, $publicKeyCredentialId: String!, $plataforma: String! ) {
+  FingerprintEntry(usuario: $usuario, publicKeyCredentialId: $publicKeyCredentialId, plataforma: $plataforma) {
+    codigo
+    completado
+    mensaje
+    dato {
+      token_type
+      session_state
+      refresh_token
+      expires_in
+      access_token
+      Validado
+      Usuario
+      NombreAsegurado
+      CorreoElectronico
+      Telefono
+    }
+  }
+}

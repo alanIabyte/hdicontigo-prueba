@@ -1,0 +1,11 @@
+query {
+  endoso_catalogoBancos {
+    codigo
+    completado
+    mensaje
+    dato {
+      idBanco
+      nombreBanco
+    }
+  }
+}

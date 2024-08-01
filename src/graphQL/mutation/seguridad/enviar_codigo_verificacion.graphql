@@ -1,0 +1,23 @@
+mutation (
+  $contrasena: String!,
+  $usuario: String!,
+  $latitud: String!,
+  $longitud: String!,
+  $plataforma: String!
+) {
+  enviar_codigo_verificacion(
+    contrasena: $contrasena,
+    usuario: $usuario,
+    latitud: $latitud,
+    longitud: $longitud,
+    plataforma: $plataforma
+  ) {
+    codigo
+    completado
+    dato {
+      codigoId
+      minutosExpiracion
+    }
+    mensaje
+  }
+}

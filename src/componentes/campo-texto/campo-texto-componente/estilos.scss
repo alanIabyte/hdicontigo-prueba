@@ -1,0 +1,85 @@
+.SingleDatePicker_picker {
+  z-index: 999 !important;
+  font-family: var(--fuente-proxima-regular);
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: var(--color-negro-normal);
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  text-transform: capitalize;
+  .CalendarDay__selected,
+  .CalendarDay__selected:active,
+  .CalendarDay__selected:hover {
+    background: var(--color-marca-normal);
+    border: 1px double var(--color-marca-normal);
+    color: #fff;
+  }
+}
+
+.SingleDatePicker {
+  width: 100%;
+  .SingleDatePickerInput {
+    width: 100%;
+    border: none;
+    .DateInput {
+      width: 100%;
+      border: none;
+      .DateInput_input {
+        width: calc(100% - 45px);
+        height: 19px;
+        padding: 10px;
+        padding-right: 35px;
+        border-radius: 4px;
+        border: solid 1px var(--color-gris-claro) !important;
+        background-color: var(--color-blanco-normal);
+        text-transform: capitalize;
+      }
+      .DateInput_input:focus {
+        border: solid 1px var(--color-marca-normal) !important;
+      }
+    }
+  }
+  .SingleDatePickerInput_calendarIcon {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    margin-top: -2px;
+    padding-right: 6px;
+    transform: scale(0.8);
+    color: var(--color-marca-normal);
+  }
+  .CalendarMonth_caption {
+    text-transform: capitalize;
+  }
+}
+
+.campo-texto-serie {
+  float: left;
+  margin-right: 12px;
+  padding: 10px !important;
+  width: 9px !important;
+}
+
+.campo-texto-mascara-poliza-1 {
+  padding: 10px !important;
+  width: 10% !important;
+}
+
+.campo-texto-mascara-poliza-2 {
+  padding: 10px !important;
+  width: 40% !important;
+}
+
+.campo-texto-mascara-poliza-3 {
+  padding: 10px !important;
+  width: 20% !important;
+}
+
+.campo-texto-separador {
+  padding: 10px !important;
+  width: 5px !important;
+  text-align: center;
+}

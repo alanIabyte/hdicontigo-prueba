@@ -1,0 +1,30 @@
+mutation (
+  $numeroReporte: Int
+  $motivoCancelacion: String
+  $horaCancelacion: String
+  $nombreAsegurado: String
+  $telefonoAsegurado: String
+  $proveedorAsignado: String
+  $numeroSerieVehiculo: String
+  $marca: String
+  $tipo: String
+  $anio: String
+) {
+  grua_cancelarReporteGrua(
+    numeroReporte: $numeroReporte
+    motivoCancelacion: $motivoCancelacion
+    horaCancelacion: $horaCancelacion
+    nombreAsegurado: $nombreAsegurado
+    telefonoAsegurado: $telefonoAsegurado
+    proveedorAsignado: $proveedorAsignado
+    numeroSerieVehiculo: $numeroSerieVehiculo
+    marca: $marca
+    tipo: $tipo
+    anio: $anio
+  ) {
+    mensaje
+    codigo
+    completado
+    dato
+  }
+}

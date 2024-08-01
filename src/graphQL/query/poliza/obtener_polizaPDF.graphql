@@ -1,0 +1,26 @@
+query(
+  $usuario: String!
+  $lineaNegocio: String!
+  $oficina: String!
+  $poliza: String!
+  $certificado: Int!
+  $documento: Int!
+  $tipoReporte: String!
+  $token: String!
+) {
+  obtener_polizaPDF(
+    usuario: $usuario
+    lineaNegocio: $lineaNegocio
+    oficina: $oficina
+    poliza: $poliza
+    certificado: $certificado
+    documento: $documento
+    tipoReporte: $tipoReporte
+    token: $token
+  ) {
+    codigo
+    completado
+    dato
+    mensaje
+  }
+}

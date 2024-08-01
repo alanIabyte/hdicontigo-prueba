@@ -1,0 +1,44 @@
+query($numeroPoliza: String!, $numeroTelefono: String!) {
+  gmm_consultarReembolsos(numeroPoliza: $numeroPoliza, telefono: $numeroTelefono) {
+    codigo
+    completado
+    mensaje
+    dato {
+      datoPoliza {
+        titular {
+          idAsegurado
+          nombre
+          estatus
+        }
+        estatus
+        numeroPoliza
+        lineaNegocio
+      }
+      reembolsos {
+        folio
+        claimId
+        claimDetailId
+        fechaSolicitud
+        montoFactura
+        montoCubierto
+        asegurado {
+          idAsegurado
+          nombre
+          fechaNacimiento
+          estatus
+          tipoRelacion
+          genero
+          rfc
+          tipoPersona
+          direccion
+        }
+        finiquitoEOB {
+          base64
+          extension
+          nombre
+          tipoDocumento
+        }
+      }
+    }
+  }
+}

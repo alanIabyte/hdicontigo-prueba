@@ -1,0 +1,15 @@
+query (
+  $numeroReporte: String!
+) {
+  obtener_roboImagenesAgiliza(
+    numeroReporte: $numeroReporte
+  ) {
+    mensaje
+    codigo
+    completado
+    dato {
+      nombre
+      url
+    }
+  }
+}

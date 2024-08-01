@@ -1,0 +1,19 @@
+query ($token: String!, $usuario: String!) {
+  obtener_perfil(token: $token, usuario: $usuario) {
+    codigo
+    mensaje
+    completado
+    dato {
+      usuario
+      nombre
+      apellido
+      correoElectronico
+      genero
+      fechaNacimiento
+      imagenes {
+        url
+        nombre
+      }
+    }
+  }
+}

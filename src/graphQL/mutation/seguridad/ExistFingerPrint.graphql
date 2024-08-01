@@ -1,0 +1,13 @@
+mutation ($usuario: String!) {
+  ExistFingerPrint(
+    usuario: $usuario
+  ) {
+    codigo
+    completado
+    mensaje
+    dato {
+      existeHuella
+      publicKeyCredentialId
+    }
+  }
+}

@@ -1,0 +1,34 @@
+mutation (
+  $coberturaPoliza: Int!
+  $numeroReporte: Int!
+  $token: String!
+) {
+  derivacion_dg_dp(
+    coberturaPoliza: $coberturaPoliza,
+    numeroReporte: $numeroReporte,
+    token: $token
+  ) {
+    codigo
+    completado
+    dato {
+      response
+      mensaje {
+        mensajeerror
+        numerrores
+      }
+      datos {
+        asegurado {
+          item
+          polizafinal
+          siniestrofinal
+        }
+        tercero {
+          item
+          polizafinal
+          siniestrofinal
+        }
+      }
+    }
+    mensaje
+  }
+}

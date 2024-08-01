@@ -1,0 +1,24 @@
+query (
+  $agencia: String!
+  $lineaNegocio: String!
+  $numeroPoliza: String!
+  $cis: Int!
+  $numeroTelefono: String!
+  $correo: String!
+  $token: String!
+) {
+  cobranza_inactivaPolizaCliente(
+    lineaNegocio: $lineaNegocio
+    numeroPoliza: $numeroPoliza
+    cis: $cis
+    numeroTelefono: $numeroTelefono
+    agencia: $agencia
+    correo: $correo
+    token: $token
+  ) {
+    codigo
+    completado
+    dato
+    mensaje
+  }
+}

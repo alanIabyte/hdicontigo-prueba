@@ -1,0 +1,14 @@
+mutation (
+  $usuario: String!
+  $detalle: String!
+) {
+  logUsuario_HDIContigo(
+    usuario: $usuario
+    detalle: $detalle
+  ) {
+    mensaje
+    codigo
+    completado
+    dato
+  }
+}

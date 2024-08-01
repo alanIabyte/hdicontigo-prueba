@@ -1,0 +1,11 @@
+query {
+  obtener_audios_recomendaciones {
+    mensaje
+    codigo
+    completado
+    dato {
+      nombre
+      url
+    }
+  }
+}

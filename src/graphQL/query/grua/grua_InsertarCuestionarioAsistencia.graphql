@@ -1,0 +1,16 @@
+query (
+  $rep_num: Int!
+  $num_preg: Int!
+  $valor: Int!
+) {
+  grua_InsertarCuestionarioAsistencia(
+    rep_num: $rep_num
+    num_preg: $num_preg
+    valor: $valor
+  ) {
+    codigo
+    mensaje
+    completado
+    dato
+  }
+}

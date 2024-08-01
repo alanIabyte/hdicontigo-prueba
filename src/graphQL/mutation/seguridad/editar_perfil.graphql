@@ -1,0 +1,24 @@
+mutation (
+  $apellido: String!
+  $correoElectronico: String!
+  $fechaNacimiento: String!
+  $genero: String!
+  $nombre: String!
+  $token: String!
+  $usuario: String!
+) {
+  editar_perfil(
+    apellido: $apellido
+    correoElectronico: $correoElectronico
+    nombre: $nombre
+    fechaNacimiento: $fechaNacimiento
+    genero: $genero
+    token: $token
+    usuario: $usuario
+  ) {
+    codigo
+    mensaje
+    dato
+    completado
+  }
+}

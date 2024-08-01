@@ -1,0 +1,24 @@
+.color-verde-linea {
+    background-color: #65A518 !important;
+}
+
+.MuiTimeline-root {
+    justify-self: flex-start !important;
+    align-self: flex-start !important;
+}
+
+.text-14 {
+    font-size: 14px;
+    margin-top: 15px !important;
+}
+
+.enlace {
+    color: var(--color-azul-enlace) !important;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.contenedor-flex {
+    display: flex;
+    flex-direction: column;
+}

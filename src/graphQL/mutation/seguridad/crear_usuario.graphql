@@ -1,0 +1,20 @@
+mutation (
+  $apellido: String
+  $contrasena: String!
+  $correoElectronico: String
+  $nombre: String
+  $usuario: String!
+) {
+  crear_usuario(
+    contrasena: $contrasena
+    usuario: $usuario
+    correoElectronico: $correoElectronico
+    nombre: $nombre
+    apellido: $apellido
+  ) {
+    codigo
+    completado
+    dato
+    mensaje
+  }
+}

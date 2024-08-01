@@ -1,0 +1,16 @@
+mutation (
+  $lineaNegocio: String!
+  $numeroReporte: Int!
+  $token: String!
+) {
+  obtener_linea_tiempo_indemnizacion(
+    lineaNegocio: $lineaNegocio
+    numeroReporte: $numeroReporte
+    token: $token
+  ) {
+    codigo
+    completado
+    dato
+    mensaje
+  }
+}

@@ -1,0 +1,12 @@
+query($url: String!) {
+  obtener_documentos_indemnizacion(url: $url) {
+    codigo
+    completado
+    mensaje
+    dato {
+      nombre
+      url
+      type
+    }
+  }
+}

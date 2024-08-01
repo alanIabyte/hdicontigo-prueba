@@ -1,0 +1,28 @@
+.custom-radio:focus-visible {
+  outline-offset: 0;
+}
+
+.custom-radio {
+  /* hiding browser el */
+  /* Safari support */
+  -webkit-appearance: none;
+  appearance: none;
+  border: 0.5rem solid #fff;
+  background-color: var(--color-marca-normal);
+  border-radius: 50%;
+}
+
+.marginLeft {
+  margin-left: 10px;
+}
+
+.box-shadow {
+  box-shadow: 0 0 0 1px gray;
+}
+
+.box-shadow:checked {
+  box-shadow: 0 0 0 1px var(--color-marca-normal) !important;
+  border: .6rem solid var(--color-marca-normal);
+  background-color: var(--color-marca-normal) !important;
+  border-width: .5rem;
+}

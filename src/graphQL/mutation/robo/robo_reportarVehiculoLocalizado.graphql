@@ -1,0 +1,30 @@
+mutation (
+  $autoridadesNotificaronLocalizacion: Boolean!,
+  $ciudad: String!,
+  $corralon: Boolean!,
+  $declaracionMP: Boolean!,
+  $descripcion: String!,
+  $estado: String!,
+  $fiscalia: String!,
+  $nombreCorralon: String!,
+  $numeroReporte: String!,
+  $oficioLiberacion: String!
+) {
+  robo_reportarVehiculoLocalizado(
+    autoridadesNotificaronLocalizacion: $autoridadesNotificaronLocalizacion,
+    ciudad: $ciudad,
+    corralon: $corralon,
+    declaracionMP: $declaracionMP,
+    descripcion: $descripcion,
+    estado: $estado,
+    fiscalia: $fiscalia,
+    nombreCorralon: $nombreCorralon,
+    numeroReporte: $numeroReporte,
+    oficioLiberacion: $oficioLiberacion
+  ) {
+    codigo
+    completado
+    dato
+    mensaje
+  }
+}

@@ -1,0 +1,18 @@
+subscription ($numeroReporte: Int!) {
+  escucha_evento_actualizacion_reporte(numeroReporte: $numeroReporte) {
+    codigo
+    completado
+    dato {
+      orden
+      titulo
+      estatus
+      creado
+      actualizado
+      imagenes
+      descripciones
+    }
+    mensaje
+    numeroReporte
+    tipoMensaje
+  }
+}

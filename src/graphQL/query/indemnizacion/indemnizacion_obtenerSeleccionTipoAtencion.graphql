@@ -1,0 +1,16 @@
+query(
+  $numeroSiniestro: String!
+  $numeroReporte: Int!
+) {
+  indemnizacion_obtenerSeleccionTipoAtencion(
+    numeroSiniestro: $numeroSiniestro
+    numeroReporte: $numeroReporte
+  ) {
+    codigo
+    completado
+    mensaje
+    dato {
+      tipoAtencion
+    }
+  }
+}

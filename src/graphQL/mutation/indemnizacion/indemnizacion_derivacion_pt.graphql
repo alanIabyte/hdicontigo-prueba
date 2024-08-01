@@ -1,0 +1,32 @@
+mutation (
+  $numeroReporte: Int!
+  $token: String!
+) {
+  derivacion_pt(
+    numeroReporte: $numeroReporte,
+    token: $token
+  ) {
+    codigo
+    completado
+    dato {
+      response
+      mensaje {
+        mensajeerror
+        numerrores
+      }
+      datos {
+        asegurado {
+          item
+          polizafinal
+          siniestrofinal
+        }
+        tercero {
+          item
+          polizafinal
+          siniestrofinal
+        }
+      }
+    }
+    mensaje
+  }
+}

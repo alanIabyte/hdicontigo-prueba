@@ -1,0 +1,11 @@
+#envolvedorEncabezadoCodigoVerificacion {
+  height: 120px !important;
+}
+
+.campo-digito:not(:last-child) {
+  margin-right: 15px;
+}
+
+.error-input-codigo {
+  border: solid 1px red !important;
+}

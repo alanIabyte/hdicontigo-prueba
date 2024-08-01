@@ -1,0 +1,15 @@
+query {
+  gmm_obtenerFormatosReembolso {
+    mensaje
+    codigo
+    completado
+    dato {
+      documentos {
+        extension
+        nombre
+        tipoDocumento
+        base64
+      }
+    }
+  }
+}

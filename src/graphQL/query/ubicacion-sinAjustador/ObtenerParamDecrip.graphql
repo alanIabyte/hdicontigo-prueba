@@ -1,0 +1,11 @@
+query ($numeroReporte: String!, $telefono: String!){
+  ObtenerParamDecrip(numeroReporte: $numeroReporte, telefono: $telefono){
+    dato {
+      numeroReporte
+      telefono
+    }
+    completado
+    codigo
+    mensaje
+  }
+}

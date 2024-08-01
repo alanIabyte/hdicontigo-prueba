@@ -1,0 +1,17 @@
+mutation (
+  $rfc: String!
+  $esCasa: Boolean!
+) {
+  busqueda_enviarCodigo(
+    rfc: $rfc,
+    esCasa: $esCasa
+  ) {
+    codigo
+    completado
+    mensaje
+    dato {
+      codigoId
+      minutosExpiracion
+    }
+  }
+}

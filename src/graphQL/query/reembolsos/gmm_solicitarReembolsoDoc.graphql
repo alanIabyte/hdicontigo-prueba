@@ -1,0 +1,26 @@
+query (
+  $idPoliza: String!
+  $idAsegurado: Int!
+  $xmlFactura: String!
+  $folio: Int!
+  $claimId: String!
+  $documentacion: [DocumentoReembolso!]!
+) {
+  gmm_solicitarReembolsoDoc(
+    idPoliza: $idPoliza
+    idAsegurado: $idAsegurado
+    xmlFactura: $xmlFactura
+    folio: $folio
+    claimId: $claimId 
+    documentacion: $documentacion
+  ) {
+    mensaje
+    codigo
+    completado
+    dato {
+      folio
+      claimId
+    }
+  }
+}
+

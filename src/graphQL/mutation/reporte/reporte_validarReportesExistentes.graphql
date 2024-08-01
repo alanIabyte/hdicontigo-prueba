@@ -1,0 +1,18 @@
+mutation (
+  $agencia: String!,
+  $certificado: Int!,
+  $lineaNegocio: String!,
+  $poliza: String!
+) {
+  reporte_validarReportesExistentes(
+    agencia: $agencia,
+    certificado: $certificado,
+    lineaNegocio: $lineaNegocio,
+    poliza: $poliza
+  ) {
+    mensaje
+    codigo
+    completado
+    dato
+  }
+}

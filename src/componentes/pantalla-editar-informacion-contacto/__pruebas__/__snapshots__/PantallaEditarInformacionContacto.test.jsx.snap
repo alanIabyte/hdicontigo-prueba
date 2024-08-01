@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PantallaEditarInformacionContacto se despliega correctamente 1`] = `
+<div
+  className="sc-jsJBEP hrEzkG"
+  id="EditarInformacionContacto"
+>
+  <div>
+    Soy un contenedor simulado
+  </div>
+  <div
+    className="sc-koXPp gBlQG"
+  >
+    <h3
+      className="sc-eqUAAy sc-hmdomO hbEPRd gqXMcN"
+      id="titulo"
+    >
+      Por favor verifica y completa la siguiente información
+    </h3>
+    <div
+      className="sc-iGgWBj sc-feUZmu fgQoGq bIzYaA"
+      id="mensajePequeno"
+    >
+      Estos datos le facilitarán a tu ajustador localizarte.
+    </div>
+    <div
+      className="sc-jlZhew sc-fUnMCh iZPiM dEGZCb"
+      id="separadorInfoContacto"
+    >
+      información de contacto
+    </div>
+    <div
+      className="sc-fHjqPf chBSVp"
+    />
+    <div
+      className="sc-cWSHoV iHJLlN"
+      id="campoTelefono"
+    >
+      <div
+        className="sc-kpDqfm sc-eBMEME bTCkFB hwrltx"
+        id="campoTelefono-etiqueta"
+      >
+        Teléfono
+      </div>
+      <div
+        className="sc-kpDqfm sc-bmzYkS bTCkFB hLmFXM"
+        id="campoTelefono-contenedorCampoDeTexto"
+      >
+        <input
+          autoFocus={false}
+          className="sc-iHGNWf jOstXH"
+          data-indice={null}
+          disabled={false}
+          id="campoTelefono-campoDeTexto"
+          maxLength={10}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onInput={[Function]}
+          onKeyPress={[Function]}
+          placeholder="Ingresa tu número de teléfono."
+          readOnly={false}
+          rows={null}
+          type="number"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="sc-hzhJZQ gQJJDh"
+    />
+    <div
+      className="sc-cWSHoV iHJLlN"
+      id="campoEmail"
+    >
+      <div
+        className="sc-kpDqfm sc-eBMEME bTCkFB hwrltx"
+        id="campoEmail-etiqueta"
+      >
+        Email
+      </div>
+      <div
+        className="sc-kpDqfm sc-bmzYkS bTCkFB hLmFXM"
+        id="campoEmail-contenedorCampoDeTexto"
+      >
+        <input
+          autoFocus={false}
+          className="sc-iHGNWf jOstXH"
+          data-indice={null}
+          disabled={false}
+          id="campoEmail-campoDeTexto"
+          maxLength=""
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onInput={[Function]}
+          onKeyPress={[Function]}
+          placeholder="Ingresa tu email."
+          readOnly={false}
+          rows={null}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="sc-hzhJZQ gQJJDh"
+    />
+    <div
+      className="sc-hzhJZQ gQJJDh"
+    />
+    <div
+      className="sc-jlZhew sc-fUnMCh iZPiM dEGZCb"
+      id="separadorInfoVehiculo"
+    >
+      información del vehículo
+    </div>
+    <div
+      className="sc-fHjqPf chBSVp"
+    />
+    <div
+      className="sc-cWSHoV iHJLlN"
+      id="campoColor"
+    >
+      <div
+        className="sc-kpDqfm sc-eBMEME bTCkFB hwrltx"
+        id="campoColor-etiqueta"
+      >
+        Color
+      </div>
+      <div
+        className="sc-kpDqfm sc-bmzYkS bTCkFB hLmFXM"
+        id="campoColor-contenedorCampoDeTexto"
+      >
+        <input
+          autoFocus={false}
+          className="sc-iHGNWf jOstXH"
+          data-indice={null}
+          disabled={false}
+          id="campoColor-campoDeTexto"
+          maxLength=""
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onInput={[Function]}
+          onKeyPress={[Function]}
+          placeholder="Ingresa el color del vehículo."
+          readOnly={false}
+          rows={null}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="sc-hzhJZQ gQJJDh"
+    />
+    <div
+      className="sc-cWSHoV iHJLlN"
+      id="campoPlacas"
+    >
+      <div
+        className="sc-kpDqfm sc-eBMEME bTCkFB hwrltx"
+        id="campoPlacas-etiqueta"
+      >
+        Placas
+      </div>
+      <div
+        className="sc-kpDqfm sc-bmzYkS bTCkFB hLmFXM"
+        id="campoPlacas-contenedorCampoDeTexto"
+      >
+        <input
+          autoFocus={false}
+          className="sc-iHGNWf jOstXH"
+          data-indice={null}
+          disabled={false}
+          id="campoPlacas-campoDeTexto"
+          maxLength={10}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onInput={[Function]}
+          onKeyPress={[Function]}
+          placeholder="Ingresa el número de placas."
+          readOnly={false}
+          rows={null}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="sc-ikkxIA eLqOjr"
+    >
+      <div>
+        Soy un contenedor simulado
+      </div>
+    </div>
+  </div>
+</div>
+`;

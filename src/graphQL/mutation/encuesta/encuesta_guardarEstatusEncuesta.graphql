@@ -1,0 +1,24 @@
+mutation (
+  $idEncuesta: Int!
+	$estatusEvaluacion: Int!
+	$numeroReporte: Int!
+	$evalua: String!
+	$evaluado: String!
+	$lineaNegocio: String!
+	$siniestro: String!
+) {
+  encuesta_guardarEstatusEncuesta (
+    idEncuesta: $idEncuesta
+	  estatusEvaluacion: $estatusEvaluacion
+	  numeroReporte: $numeroReporte
+	  evalua: $evalua
+	  evaluado: $evaluado
+	  lineaNegocio: $lineaNegocio
+	  siniestro: $siniestro
+  ) {
+    codigo
+    completado
+    dato
+    mensaje
+  }
+}

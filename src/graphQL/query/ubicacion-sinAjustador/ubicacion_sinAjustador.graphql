@@ -1,0 +1,13 @@
+query ($numeroReporte: Int!, $telefono: String!){
+  ubicacion_sinAjustador(numeroReporte: $numeroReporte, telefono: $telefono){
+    dato {
+      ajustadorLongitud
+      ajustadorLatitud
+      siniestroLongitud
+      siniestroLatitud
+    }
+    completado
+    codigo
+    mensaje
+  }
+}

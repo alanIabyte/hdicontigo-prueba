@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#Boton se despliega correctamente 1`] = `
+<button
+  className="sc-cPiKLX sc-ikkxIA fNLDlM gFgqpw boton boton-estandar "
+  disabled={false}
+  id=""
+  onClick={[Function]}
+  onKeyPress={[Function]}
+  type="button"
+>
+  
+  prueba con etiqueta
+</button>
+`;

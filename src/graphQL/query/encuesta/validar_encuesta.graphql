@@ -1,0 +1,8 @@
+query ($idEncuesta: Int!, $numeroReporte: Int!) {
+  validar_encuesta(idEncuesta: $idEncuesta, numeroReporte: $numeroReporte) {
+    codigo
+    completado
+    dato
+    mensaje
+  }
+}

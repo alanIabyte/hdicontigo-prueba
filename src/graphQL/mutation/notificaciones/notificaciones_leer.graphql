@@ -1,0 +1,8 @@
+mutation ($id_noti: Int!, $usuario: String!) {
+  notificaciones_leer(id_noti: $id_noti, usuario: $usuario) {
+    mensaje
+    codigo
+    completado
+    dato
+  }
+}

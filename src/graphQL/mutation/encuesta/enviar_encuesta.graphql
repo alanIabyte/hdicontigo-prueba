@@ -1,0 +1,26 @@
+mutation (
+  $comentario: String!
+  $encuestaId: Int!
+  $evalua: String!
+  $evaluaciones: String!
+  $evaluado: String!
+  $numeroReporte: Int!
+  $reconocimiento: String!
+  $calificaciones: String!
+) {
+  enviar_encuesta(
+    comentario: $comentario
+    encuestaId: $encuestaId
+    evalua: $evalua
+    evaluaciones: $evaluaciones
+    numeroReporte: $numeroReporte
+    evaluado: $evaluado
+    reconocimiento: $reconocimiento
+    calificaciones: $calificaciones
+  ) {
+    codigo
+    completado
+    dato
+    mensaje
+  }
+}

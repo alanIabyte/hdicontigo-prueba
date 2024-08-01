@@ -1,0 +1,36 @@
+query(
+  $agencia: String!
+  $cis: Int!
+  $lineaNegocio: String!
+  $poliza: String!
+  $serieRecibo: String!
+) {
+  cobranza_referenciasDePago(
+    agencia: $agencia
+    cis: $cis
+    lineaNegocio: $lineaNegocio
+    poliza: $poliza
+    serieRecibo: $serieRecibo
+  ) {
+    dato {
+      referenciaInternet
+      codigoBarras
+      codigoBarrasDig
+      datosReferencias {
+        banco
+        convenio
+        id
+        numeroReferencia
+      }
+      datosReferenciasClabe {
+        banco
+        clabe
+        id
+        numeroReferencia
+      }
+    }
+    mensaje
+    completado
+    codigo
+  }
+}

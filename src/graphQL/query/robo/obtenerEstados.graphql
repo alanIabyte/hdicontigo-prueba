@@ -1,0 +1,11 @@
+query {
+  obtenerEstados {
+    codigo
+    completado
+    dato {
+      id
+      nombre
+    }
+    mensaje
+  }
+}

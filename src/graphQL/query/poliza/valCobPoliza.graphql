@@ -1,0 +1,22 @@
+query (
+  $poliza: String!
+  $agencia: String!
+  $lineaNegocio: String!
+  $certificado: Int!
+  $tipoCobertura: Int!
+  $subEvento: Int!
+) {
+  valCobPoliza(
+    poliza: $poliza
+    agencia: $agencia
+    lineaNegocio: $lineaNegocio
+    certificado: $certificado
+    tipoCobertura: $tipoCobertura
+    subEvento: $subEvento
+  ) {
+    codigo
+    mensaje
+    completado
+    dato
+  }
+}

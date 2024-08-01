@@ -1,0 +1,22 @@
+query ($codigoPostal: String!) {
+  indemnizacion_obtenerTalleresCodigoPostal(codigoPostal: $codigoPostal) {
+    codigo
+    mensaje
+    completado
+    dato {
+        suc_id
+        con_nombre_comercial
+        suc_asociado
+        estado_id
+        estado
+        ciudad_id
+        ciudad
+        municipio_id
+        municipio
+        direccion
+        codigo_postal
+        telefono
+        email
+    }
+  }
+}

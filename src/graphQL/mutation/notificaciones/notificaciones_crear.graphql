@@ -1,0 +1,20 @@
+mutation (
+  $titulo: String!,
+  $contenido: String!,
+  $tipo: String!,
+  $infoadicional: String!,
+  $usuario: String!
+) {
+  notificaciones_crear(
+    titulo: $titulo,
+    contenido: $contenido,
+    tipo: $tipo,
+    infoadicional: $infoadicional,
+    usuario: $usuario
+  ) {
+    mensaje
+    codigo
+    completado
+    dato
+  }
+}

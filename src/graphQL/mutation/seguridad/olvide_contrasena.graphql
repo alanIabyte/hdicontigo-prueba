@@ -1,0 +1,8 @@
+mutation ($usuario: String!) {
+  olvide_contrasena(usuario: $usuario) {
+    mensaje
+    dato
+    completado
+    codigo
+  }
+}

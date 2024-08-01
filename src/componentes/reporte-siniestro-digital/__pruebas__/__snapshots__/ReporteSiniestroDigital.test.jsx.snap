@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#ReporteSiniestroDigital se despliega correctamente 1`] = `
+<div
+  className="sc-ikkxIA"
+>
+  <div
+    className="sc-kpDqfm sc-dAbbOL bTCkFB hdZOgq"
+  >
+    Número de reporte
+  </div>
+  <div
+    className="sc-kpDqfm sc-feUZmu bTCkFB jMhLTa"
+  >
+    
+  </div>
+  <div
+    className="sc-kpDqfm sc-dAbbOL bTCkFB hdZOgq"
+  >
+    Hora
+  </div>
+  <div
+    className="sc-kpDqfm sc-feUZmu bTCkFB jMhLTa"
+  >
+    Fecha inválida
+  </div>
+  <div
+    className="sc-kpDqfm sc-dAbbOL bTCkFB hdZOgq"
+  >
+    Siniestros
+  </div>
+  <div
+    className="sc-kpDqfm sc-feUZmu bTCkFB jMhLTa"
+  >
+    
+  </div>
+</div>
+`;

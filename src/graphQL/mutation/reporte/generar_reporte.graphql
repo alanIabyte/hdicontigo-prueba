@@ -1,0 +1,45 @@
+mutation (
+  $esTradicional: Boolean!
+  $fechaOcurrencia: AWSDateTime!
+  $idSubEvento: Int
+  $vin: String!
+  $color: String!
+  $placas: String
+  $numeroCertificado: Int!
+  $lineaNegocio: String!
+  $nombreCompletoReporta: String!
+  $reportaConductor: Boolean
+  $reportaAsegurado: Boolean!
+  $telefonoAsegurado: String!
+  $correo: String
+  $longitud: Float!
+  $latitud: Float!
+) {
+  generar_reporte(
+    esTradicional: $esTradicional
+    fechaOcurrencia: $fechaOcurrencia
+    idSubEvento: $idSubEvento
+    vin: $vin
+    color: $color
+    placas: $placas
+    numeroCertificado: $numeroCertificado
+    lineaNegocio: $lineaNegocio
+    nombreCompletoReporta: $nombreCompletoReporta
+    reportaConductor: $reportaConductor
+    reportaAsegurado: $reportaAsegurado
+    telefonoAsegurado: $telefonoAsegurado
+    correo: $correo
+    longitud: $longitud
+    latitud: $latitud
+  ) {
+    mensaje
+    codigo
+    completado
+    dato {
+      numeroReporte
+      esTradicional
+      usuarioRegistrado
+      urlAjustadorDigital
+    }
+  }
+}

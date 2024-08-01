@@ -1,0 +1,35 @@
+query (
+  $correo: String!
+  $depNumber: String!
+  $folios: String!
+  $lineaNegocio: String!
+  $mesesSinIntereses: Int!
+  $monto: Float!
+  $origen: String!
+  $provider: String!
+  $senderID: String!
+  $usuario: String!
+  $vigenciaURL: String!
+  ) {
+  cobranza_consultaUrlSantanderXFolioRecibo(
+    correo: $correo
+    depNumber: $depNumber
+    folios: $folios
+    lineaNegocio: $lineaNegocio
+    mesesSinIntereses: $mesesSinIntereses
+    monto: $monto
+    origen: $origen
+    provider: $provider
+    senderID: $senderID
+    usuario: $usuario
+    vigenciaURL: $vigenciaURL
+    ) {
+    mensaje
+    completado
+    codigo
+    dato {
+      refTransaccion
+      urlTransaccion
+    }
+  }
+}

@@ -1,0 +1,13 @@
+query ($claimDetailId: String!) {
+  gmm_consultarFiniquitoEOB(claimDetailId: $claimDetailId) {
+    mensaje
+    codigo
+    completado
+    dato {
+        nombre
+        base64
+        extension
+        tipoDocumento
+    }
+  }
+}

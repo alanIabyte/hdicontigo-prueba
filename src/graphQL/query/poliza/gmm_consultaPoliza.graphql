@@ -1,0 +1,64 @@
+query ($numeroPoliza: String!, $numeroTelefono: String!) {
+  gmm_consultaPoliza(numeroPoliza: $numeroPoliza, telefono: $numeroTelefono) {
+    mensaje
+    codigo
+    completado
+    dato {
+      seccionesCoberturas {
+        idSeccion
+        seccion
+      }
+      coberturas {
+        cobertura
+        deducible
+        idSeccion
+        sumaAsegurada
+      }
+      poliza {
+        lineaNegocio
+        oficina
+        numeroPoliza
+        certificado
+        fechaInicioVigencia
+        fechaFinVigencia
+        fechaEmision
+        numeroPolizaAnterior
+        estatus
+        paquete
+        titular {
+          idAsegurado
+          nombre
+          estatus
+        }
+        agentes {
+          clave
+          nombre
+        }
+        titular {
+          idAsegurado
+          nombre
+          fechaNacimiento
+          tipoPersona
+          fechaAlta
+          fechaAntiguedadCompania
+          fechaInicioSeguro
+          sumaAsegurada
+          coaseguro
+          deducibleCobertura
+        }
+      }
+      asegurados {
+        idAsegurado
+        nombre
+        tipoRelacion
+        fechaNacimiento
+        fechaAlta
+        fechaAntiguedadCompania
+        fechaInicioSeguro
+        sumaAsegurada
+        coaseguro
+        deducibleCobertura
+      }
+    }
+  }
+}

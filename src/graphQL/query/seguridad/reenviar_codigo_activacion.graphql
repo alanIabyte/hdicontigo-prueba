@@ -1,0 +1,8 @@
+query ($token: String!, $usuario: String!) {
+  reenviar_codigo_activacion(token: $token, usuario: $usuario) {
+    mensaje
+    dato
+    completado
+    codigo
+  }
+}

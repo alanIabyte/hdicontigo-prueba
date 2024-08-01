@@ -1,0 +1,19 @@
+mutation ($contrasena: String!, $usuario: String!, $latitud: String!, $longitud: String!, $plataforma: String! ) {
+  iniciar_sesion(contrasena: $contrasena, usuario: $usuario, latitud: $latitud, longitud: $longitud, plataforma: $plataforma) {
+    codigo
+    completado
+    mensaje
+    dato {
+      token_type
+      session_state
+      refresh_token
+      expires_in
+      access_token
+      Validado
+      Usuario
+      NombreAsegurado
+      CorreoElectronico
+      Telefono
+    }
+  }
+}

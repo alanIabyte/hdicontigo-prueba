@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+  <g id="Group_21060" data-name="Group 21060" transform="translate(-30 -639)">
+    <g id="Grupo_21066" data-name="Grupo 21066" transform="translate(38 647)">
+      <g id="Group_16334" data-name="Group 16334" transform="translate(9.141 10.415)">
+        <g id="streamline-icon-email-action-receive_50x50" data-name="streamline-icon-email-action-receive 50x50">
+          <g id="Trazado_4201" data-name="Trazado 4201" transform="translate(3.085)">
+            <path id="Path_12083" data-name="Path 12083" d="M-83.995,693.49a.715.715,0,0,1-.715-.715v-5.724a.715.715,0,0,1,.715-.715.715.715,0,0,1,.715.715v5.724A.715.715,0,0,1-83.995,693.49Z" transform="translate(84.71 -686.336)" fill="red"/>
+          </g>
+          <g id="Trazado_4202" data-name="Trazado 4202" transform="translate(0 3.355)">
+            <path id="Path_12084" data-name="Path 12084" d="M-85.25,694.9a.717.717,0,0,1-.447-.156l-3.056-2.445a.716.716,0,0,1-.112-1.007.716.716,0,0,1,1.005-.112l2.61,2.088,2.609-2.088a.716.716,0,0,1,1.005.112.716.716,0,0,1-.112,1.007l-3.056,2.445A.717.717,0,0,1-85.25,694.9Z" transform="translate(89.022 -691.025)" fill="red"/>
+          </g>
+        </g>
+      </g>
+      <g id="streamline-icon-business-contract-handshake-sign_50x50" data-name="streamline-icon-business-contract-handshake-sign 50x50" transform="translate(0 0)">
+        <g id="Trazado_4752" data-name="Trazado 4752" transform="translate(0 0.053)">
+          <path id="Path_12085" data-name="Path 12085" d="M-93.214,690.453h-6.725a1.862,1.862,0,0,1-1.86-1.86V674.857a3.008,3.008,0,0,1,3-3h12.019a.715.715,0,0,1,.715.715.716.716,0,0,1-.715.715H-98.794a1.575,1.575,0,0,0-1.574,1.574v13.736a.43.43,0,0,0,.429.429h6.725a.715.715,0,0,1,.715.715A.716.716,0,0,1-93.214,690.453Z" transform="translate(101.799 -671.852)" fill="#006c30"/>
+        </g>
+        <g id="Trazado_4753" data-name="Trazado 4753" transform="translate(2.862 2.915)">
+          <path id="Path_12086" data-name="Path 12086" d="M-92.075,677.283h-5.008a.715.715,0,0,1-.715-.715.715.715,0,0,1,.715-.715h5.008a.715.715,0,0,1,.715.715A.716.716,0,0,1-92.075,677.283Z" transform="translate(97.799 -675.852)" fill="#006c30"/>
+        </g>
+        <g id="Trazado_4754" data-name="Trazado 4754" transform="translate(2.862 5.776)">
+          <path id="Path_12087" data-name="Path 12087" d="M-92.075,681.283h-5.008a.715.715,0,0,1-.715-.715.715.715,0,0,1,.715-.715h5.008a.715.715,0,0,1,.715.715A.716.716,0,0,1-92.075,681.283Z" transform="translate(97.799 -679.852)" fill="#006c30"/>
+        </g>
+        <g id="Trazado_4755" data-name="Trazado 4755" transform="translate(2.862 8.638)">
+          <path id="Path_12088" data-name="Path 12088" d="M-94.222,685.283h-2.862a.715.715,0,0,1-.715-.715.715.715,0,0,1,.715-.715h2.862a.715.715,0,0,1,.715.715A.716.716,0,0,1-94.222,685.283Z" transform="translate(97.799 -683.852)" fill="#006c30"/>
+        </g>
+        <g id="Trazado_4756" data-name="Trazado 4756" transform="translate(12.163)">
+          <path id="Path_12089" data-name="Path 12089" d="M-84.084,680.416a.715.715,0,0,1-.715-.715v-5.459a2.5,2.5,0,0,1,2.488-2.464h.043a2.493,2.493,0,0,1,2.477,2.454v1.176a.716.716,0,0,1-.715.715h-2.862V679.7A.716.716,0,0,1-84.084,680.416Zm.715-5.724h2.146v-.451a1.06,1.06,0,0,0-1.058-1.033H-82.3a1.063,1.063,0,0,0-1.07,1.043Z" transform="translate(84.799 -671.778)" fill="#006c30"/>
+        </g>
+      </g>
+    </g>
+    <g id="Rectángulo_7017" data-name="Rectángulo 7017" transform="translate(30 639)">
+      <rect id="Rectangle_7023" data-name="Rectangle 7023" width="34" height="34" transform="translate(0 0)" fill="none"/>
+    </g>
+  </g>
+</svg>

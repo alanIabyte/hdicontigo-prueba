@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio Boton se despliega correctamente 1`] = `
+<div
+  className="sc-ikkxIA gSsNyb"
+  id="componenteRadioBoton"
+>
+  <div
+    className="sc-dAbbOL hSOkPt"
+    onClick={[Function]}
+  >
+    <div
+      className="sc-fUnMCh dYlTZE"
+    >
+      <div />
+    </div>
+    <div
+      className="sc-imWYAI sc-feUZmu eYGTZs"
+    >
+      test 1
+    </div>
+  </div>
+  <div
+    className="sc-dAbbOL hSOkPt"
+    onClick={[Function]}
+  >
+    <div
+      className="sc-fUnMCh hjJovA"
+    >
+      <div />
+    </div>
+    <div
+      className="sc-imWYAI sc-feUZmu eYGTZs"
+    >
+      test 2
+    </div>
+  </div>
+</div>
+`;

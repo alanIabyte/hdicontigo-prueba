@@ -1,0 +1,14 @@
+query (
+  $numeroReporte: Int!,
+  $token: String!
+) {
+  obtener_linea_tiempo_ajuste(
+    numeroReporte: $numeroReporte, 
+    token: $token
+  ) {
+    codigo
+    completado
+    mensaje
+    dato
+  }
+}

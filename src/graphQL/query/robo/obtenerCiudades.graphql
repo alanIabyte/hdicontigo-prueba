@@ -1,0 +1,11 @@
+query ($estadoId: String!) {
+  obtenerCiudades (estadoId: $estadoId) {
+    codigo
+    completado
+    dato {
+      id
+      nombre
+    }
+    mensaje
+  }
+}

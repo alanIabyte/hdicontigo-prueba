@@ -1,0 +1,35 @@
+mutation (
+  $contrasena: String!,
+  $usuario: String!,
+  $latitud: String!,
+  $longitud: String!,
+  $plataforma: String!,
+  $codigoVerificacionId: Int!,
+  $codigoVerificacion: String!
+) {
+  iniciar_sesion_dos_factores(
+    contrasena: $contrasena,
+    usuario: $usuario,
+    latitud: $latitud,
+    longitud: $longitud,
+    plataforma: $plataforma,
+    codigoVerificacionId: $codigoVerificacionId,
+    codigoVerificacion: $codigoVerificacion
+  ) {
+    codigo
+    completado
+    dato {
+      token_type
+      session_state
+      refresh_token
+      expires_in
+      access_token
+      Validado
+      Usuario
+      NombreAsegurado
+      CorreoElectronico
+      Telefono
+    }
+    mensaje
+  }
+}

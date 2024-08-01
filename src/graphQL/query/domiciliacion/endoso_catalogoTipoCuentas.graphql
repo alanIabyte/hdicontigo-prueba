@@ -1,0 +1,11 @@
+query {
+  endoso_catalogoTipoCuentas {
+    codigo
+    completado
+    dato {
+      idTipoCuenta
+      nombreTipoCuenta
+    }
+    mensaje
+  }
+}

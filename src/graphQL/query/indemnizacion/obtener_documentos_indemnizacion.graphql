@@ -1,0 +1,12 @@
+query {
+  obtener_documentos_indemnizacion {
+    mensaje
+    codigo
+    completado
+    dato {
+      nombre
+      url
+      type
+    }
+  }
+}

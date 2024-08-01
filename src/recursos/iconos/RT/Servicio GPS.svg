@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Grupo_22287" data-name="Grupo 22287" transform="translate(-7.199 -577.09)">
+    <rect id="Rectángulo_6986" data-name="Rectángulo 6986" width="48" height="48" transform="translate(7.199 577.09)" fill="none"/>
+    <g id="Grupo_20924" data-name="Grupo 20924" transform="translate(17.298 583.159)">
+      <g id="Grupo_20922" data-name="Grupo 20922" transform="translate(0.437)">
+        <path id="Trazado_12006" data-name="Trazado 12006" d="M539.053,358.764a12.238,12.238,0,0,0-14.079,7.286c-2.158,5.366-.767,10.187,2.747,14.514,2.464,3.034,5.477,5.593,7.646,8.895a1.079,1.079,0,0,0,1.969-.029c2.067-3.077,4.793-5.571,7.2-8.345a15.113,15.113,0,0,0,4.115-10.632A12.144,12.144,0,0,0,539.053,358.764Zm4.178,20.305c-2.173,2.676-4.854,4.891-6.874,7.858-1.974-2.786-4.432-4.936-6.533-7.411-2.8-3.3-4.38-6.969-3.17-11.37a10.077,10.077,0,0,1,13.211-6.759,10.415,10.415,0,0,1,5.553,14.219A16.419,16.419,0,0,1,543.231,379.07Z" transform="translate(-523.945 -358.481)" fill="#016c30"/>
+        <path id="Trazado_12007" data-name="Trazado 12007" d="M535.477,364.383a5.636,5.636,0,1,0,5.615,5.669A5.551,5.551,0,0,0,535.477,364.383Zm-.1,8.984a3.355,3.355,0,1,1,3.434-3.38A3.419,3.419,0,0,1,535.381,373.367Z" transform="translate(-523.076 -357.614)" fill="#016c30"/>
+      </g>
+      <rect id="Rectángulo_6982" data-name="Rectángulo 6982" width="8.335" height="1.988" rx="0.994" transform="matrix(-0.924, -0.382, 0.382, -0.924, 24.795, 36.348)" fill="#e60018"/>
+      <rect id="Rectángulo_6983" data-name="Rectángulo 6983" width="5.222" height="1.988" rx="0.994" transform="matrix(0.924, -0.382, 0.382, 0.924, 19.967, 26.533)" fill="#016c30"/>
+      <g id="Grupo_20923" data-name="Grupo 20923" transform="translate(0 24.538)">
+        <rect id="Rectángulo_6984" data-name="Rectángulo 6984" width="8.335" height="1.988" rx="0.994" transform="matrix(0.924, -0.382, 0.382, 0.924, 0, 9.972)" fill="#016c30"/>
+        <rect id="Rectángulo_6985" data-name="Rectángulo 6985" width="5.222" height="1.988" rx="0.994" transform="matrix(-0.924, -0.382, 0.382, -0.924, 4.828, 3.833)" fill="#016c30"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+mutation (
+  $contrasena: String!
+  $esTemporal: Boolean!
+  $tipo: String!
+  $token: String!
+  $usuario: String!
+) {
+  cambiar_credenciales(
+    contrasena: $contrasena
+    tipo: $tipo
+    esTemporal: $esTemporal
+    token: $token
+    usuario: $usuario
+  ) {
+    mensaje
+    completado
+    codigo
+    dato {
+      respuesta
+    }
+  }
+}

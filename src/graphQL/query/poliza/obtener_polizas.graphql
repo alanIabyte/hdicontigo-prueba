@@ -1,0 +1,45 @@
+query ($telefono: String!) {
+  obtener_polizas(telefono: $telefono) {
+    codigo
+    completado
+    mensaje
+    dato {
+      reportes {
+        numeroReporte
+        numeroSiniestro
+        estatusReporte
+        descEstatusReporte
+        tipoAtencion
+        descTipoAtencion
+        idSubEvento,
+        nombreReporta
+        fechaReporte
+        ubicacion {
+          latitud
+          longitud
+        }
+        encuestasPend
+      }
+      poliza {
+        poliza
+        numeroCertificado
+        numeroEndoso
+        fechaInicio
+        fechaTermino
+        oficina
+        numeroDocumento
+        estatus
+        nombreCompletoAsegurado
+        telefonoAsegurado
+        tipoAsegurado
+        lineaNegocio
+        datosVehiculo
+        vin
+        imagenesVehiculo {
+          nombre
+          url
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.pac-container {
+  box-shadow: none;
+  border-radius: 0px;
+  border: none;
+  font-family: var(--fuente-proxima-regular);
+  .pac-item {
+    height: 35px;
+    padding-left: 15px;
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
+    padding-top: 7px;
+    .pac-icon {
+      width: 15px;
+      height: 16px;
+      margin-right: 20px;
+      margin-top: 0px;
+      display: inline-block;
+      vertical-align: top;
+      background-image: url("../recursos/marcador-autocompletar.svg");
+      background-size: 16px;
+      margin-top: 8px;
+    }
+    .pac-icon-marker {
+      background-position: 14px 16px;
+    }
+  }
+}
+.pac-logo:after {
+  content: "";
+  background-image: none;
+}

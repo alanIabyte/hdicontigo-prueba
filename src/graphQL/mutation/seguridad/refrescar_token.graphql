@@ -1,0 +1,19 @@
+mutation ($token: String!) {
+  refrescar_token(token: $token) {
+    codigo
+    completado
+    mensaje
+    dato {
+      token_type
+      session_state
+      refresh_token
+      expires_in
+      access_token
+      Validado
+      Usuario
+      CorreoElectronico
+      NombreAsegurado
+      Telefono
+    }
+  }
+}

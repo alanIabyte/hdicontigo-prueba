@@ -1,0 +1,22 @@
+query (
+  $lineaNegocio: String!
+  $numeroPoliza: String!
+  $vin: String!
+  $numeroTelefono: String!
+  $contrasena: String!
+  $contrasenaConfirma: String!
+) {
+  seguridad_registraUsuarioAutos(
+    lineaNegocio: $lineaNegocio
+    numeroPoliza: $numeroPoliza
+    vin: $vin
+    numeroTelefono: $numeroTelefono
+    contrasena: $contrasena
+    contrasenaConfirma: $contrasenaConfirma
+  ) {
+    codigo
+    completado
+    dato
+    mensaje
+  }
+}

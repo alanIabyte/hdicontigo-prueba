@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FechaDeIndemnizacion se despliega correctamente 1`] = `
+<div
+  className="sc-ikkxIA"
+>
+  <div
+    className="sc-kpDqfm sc-dAbbOL bTCkFB hdZOgq"
+  >
+    Pago programado para el día:
+  </div>
+  <div
+    className="sc-kpDqfm sc-feUZmu bTCkFB jMhLTa"
+  >
+    Fecha inválida
+  </div>
+</div>
+`;

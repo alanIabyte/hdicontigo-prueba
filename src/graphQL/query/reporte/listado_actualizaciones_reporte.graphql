@@ -1,0 +1,20 @@
+query ($numeroReporte: Int!) {
+  listado_actualizaciones_reporte(numeroReporte: $numeroReporte) {
+    codigo
+    completado
+    mensaje
+    numeroReporte
+    dato {
+      ajuste {
+        tipoMensaje
+        orden
+        titulo
+        estatus
+        creado
+        actualizado
+        descripciones
+        imagenes
+      }
+    }
+  }
+}

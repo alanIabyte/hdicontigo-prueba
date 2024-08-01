@@ -1,0 +1,7 @@
+const ACTIONS_REDUX = {
+  ACTUALIZAR: "ACTUALIZAR",
+  BORRAR: "BORRAR",
+  AGREGAR: "AGREGAR",
+};
+
+export default ACTIONS_REDUX;

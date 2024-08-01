@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+  <g id="Grupo_19715" data-name="Grupo 19715" transform="translate(19079 24482)">
+    <g id="directions_car_filled_black_24dp" transform="translate(-19079 -24482)">
+      <g id="Grupo_17773" data-name="Grupo 17773">
+        <rect id="Rectángulo_498" data-name="Rectángulo 498" width="52" height="52" fill="none"/>
+      </g>
+      <g id="Grupo_17775" data-name="Grupo 17775" transform="matrix(0.985, -0.174, 0.174, 0.985, 5, 13.425)">
+        <g id="Grupo_17774" data-name="Grupo 17774" transform="translate(0 0)">
+          <path id="Trazado_11303" data-name="Trazado 11303" d="M32.724,2.076A3.071,3.071,0,0,0,29.806,0H7.194A3.091,3.091,0,0,0,4.276,2.076L0,14.389V28.778c4.175,0,2.088.032,6.167,0H30.833v2.056a2.062,2.062,0,0,0,2.056,2.056h2.056A2.062,2.062,0,0,0,37,30.833V14.389ZM7.914,4.111H29.066L31.2,10.278H5.776ZM32.889,24.667H4.111V14.389H32.889Z" transform="translate(0 0)" fill="#006c30"/>
+          <circle id="Elipse_17" data-name="Elipse 17" cx="3.083" cy="3.083" r="3.083" transform="translate(6.167 16.444)" fill="#006c30"/>
+          <circle id="Elipse_18" data-name="Elipse 18" cx="3.083" cy="3.083" r="3.083" transform="translate(24.667 16.444)" fill="#006c30"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
