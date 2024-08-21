@@ -85,7 +85,9 @@
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "publish": "npm run testUpdate && git push",
-    "publish:stash": "npm run testUpdate && git pull && git push && git stash"
+    "publish:stash": "npm run testUpdate && git pull && git push && git stash",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d -dist"
   },
   "husky": {
     "hooks": {
@@ -244,6 +246,7 @@
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "gh-pages": "^6.1.1",
     "husky": "^4.3.8",
     "jest": "^26.6.0",
     "prettier": "^2.2.1",
