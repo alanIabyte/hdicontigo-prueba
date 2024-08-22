@@ -10,6 +10,7 @@
 componentes/**/__pruebas__
 
 # production
+/build
 
 # misc
 .DS_Store
