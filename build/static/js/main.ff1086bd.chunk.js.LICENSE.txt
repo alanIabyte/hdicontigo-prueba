@@ -1,0 +1,9 @@
+//!  GMM
+
+//! Agregar un condicional para cuando el servidor no responde, recargar la pagina
+
+//! Efectos
+
+//! Suscripcion para las notificaciones
+
+//! VALIDACION CUENTAHABIENTE

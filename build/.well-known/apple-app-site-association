@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["AJVKTZ8QLQ.mx.com.hdi.testing.portalasegurado"],
+        "paths": ["*"]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": ["AJVKTZ8QLQ.mx.com.hdi.testing.portalasegurado"]
+  }
+}

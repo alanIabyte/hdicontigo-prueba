@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_40_px" data-name="40 px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #9d9d9d;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_16256" data-name="Grupo 16256">
+    <g id="Grupo_16254" data-name="Grupo 16254">
+      <g id="Grupo_16234" data-name="Grupo 16234">
+        <g id="Grupo_16193" data-name="Grupo 16193">
+          <g id="Grupo_15839" data-name="Grupo 15839">
+            <g id="Grupo_15836" data-name="Grupo 15836">
+              <rect id="Rectángulo_235" data-name="Rectángulo 235" class="cls-2" width="40" height="40"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="streamline-icon-kindle_50x50" data-name="streamline-icon-kindle 50x50">
+      <path id="Trazado_3803" data-name="Trazado 3803" class="cls-1" d="M15,14.17h9.17"/>
+      <path id="Trazado_3804" data-name="Trazado 3804" class="cls-1" d="M15,17.24h9.17"/>
+      <path id="Trazado_3805" data-name="Trazado 3805" class="cls-1" d="M15,20h5.83"/>
+      <path id="Trazado_3806" data-name="Trazado 3806" class="cls-1" d="M10.83,8.33H29.17V30.83H10.83V8.33Z"/>
+      <path id="Trazado_3807" data-name="Trazado 3807" class="cls-1" d="M10.83,26.67H29.17"/>
+    </g>
+  </g>
+  <rect class="cls-2" y=".2" width="40" height="40"/>
+</svg>

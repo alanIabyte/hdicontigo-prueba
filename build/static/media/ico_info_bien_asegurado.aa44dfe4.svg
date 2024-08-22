@@ -1,0 +1,14 @@
+<svg id="maps_home_work_black_24dp_1_" data-name="maps_home_work_black_24dp (1)" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Grupo_18683" data-name="Grupo 18683">
+    <path id="Trazado_11574" data-name="Trazado 11574" d="M0,0H24V24H0Z" fill="none"/>
+  </g>
+  <g id="Grupo_18685" data-name="Grupo 18685">
+    <g id="Grupo_18684" data-name="Grupo 18684">
+      <rect id="Rectángulo_6436" data-name="Rectángulo 6436" width="2" height="2" transform="translate(17 7)" fill="#006c30"/>
+      <rect id="Rectángulo_6437" data-name="Rectángulo 6437" width="2" height="2" transform="translate(17 11)" fill="#006c30"/>
+      <rect id="Rectángulo_6438" data-name="Rectángulo 6438" width="2" height="2" transform="translate(17 15)" fill="#006c30"/>
+      <path id="Trazado_11575" data-name="Trazado 11575" d="M1,11V21H7V16H9v5h6V11L8,6Zm12,8H11V14H5v5H3V12L8,8.5,13,12Z" fill="#006c30"/>
+      <path id="Trazado_11576" data-name="Trazado 11576" d="M10,3V4.97L12,6.4V5h9V19H17v2h6V3Z" fill="#006c30"/>
+    </g>
+  </g>
+</svg>

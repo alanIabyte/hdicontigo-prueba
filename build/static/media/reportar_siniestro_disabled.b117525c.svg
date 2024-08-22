@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Group_21538" data-name="Group 21538" transform="translate(20573 22003)">
+    <g id="Group_21400" data-name="Group 21400" transform="translate(-20796.207 -22271.273)">
+      <g id="streamline-icon-valve-caution-1_50x50" data-name="streamline-icon-valve-caution-1 50x50">
+        <g id="Trazado_4776" data-name="Trazado 4776">
+          <path id="Path_12223" data-name="Path 12223" d="M255.912,307.235h-17.4a4.327,4.327,0,0,1-3.891-2.449,4.4,4.4,0,0,1,.217-4.109l8.109-14.291a5,5,0,0,1,4.526-2.529,5.126,5.126,0,0,1,4.235,2.672l8.1,14.27a4.327,4.327,0,0,1-.206,4.6A4.4,4.4,0,0,1,255.912,307.235Zm-8.585-21.38a3.028,3.028,0,0,0-2.646,1.519l-8.107,14.289a2.443,2.443,0,0,0-.163,2.24,2.337,2.337,0,0,0,2.1,1.332h17.4a2.443,2.443,0,0,0,2.03-.964,2.344,2.344,0,0,0,.122-2.485h0l-8.1-14.271a3.121,3.121,0,0,0-2.55-1.659Z" fill="#9d9d9d"/>
+        </g>
+        <g id="Línea_326" data-name="Línea 326">
+          <path id="Path_12224" data-name="Path 12224" d="M247.286,298.323a1,1,0,0,1-1-1v-7.517a1,1,0,0,1,2,0v7.517A1,1,0,0,1,247.286,298.323Z" fill="#9d9d9d"/>
+        </g>
+        <g id="Elipse_163" data-name="Elipse 163">
+          <path id="Path_12225" data-name="Path 12225" d="M247.286,303.124a1.7,1.7,0,1,1,1.7-1.7A1.7,1.7,0,0,1,247.286,303.124Zm0-2a.3.3,0,1,0,.3.3A.3.3,0,0,0,247.286,301.124Z" fill="#9d9d9d"/>
+        </g>
+      </g>
+      <g id="streamline-icon-auto-pilot-car-radius_50x50" data-name="streamline-icon-auto-pilot-car-radius 50x50">
+        <g id="Trazado_3485" data-name="Trazado 3485">
+          <path id="Path_12226" data-name="Path 12226" d="M236.354,285.507a1,1,0,0,1-1-1,6.837,6.837,0,0,1,6.83-6.83,1,1,0,0,1,0,2,4.836,4.836,0,0,0-4.83,4.83A1,1,0,0,1,236.354,285.507Z" fill="#9d9d9d"/>
+        </g>
+        <g id="Trazado_3484" data-name="Trazado 3484">
+          <path id="Path_12227" data-name="Path 12227" d="M239.269,285.507a1,1,0,0,1-1-1,3.918,3.918,0,0,1,3.913-3.913,1,1,0,0,1,0,2,1.915,1.915,0,0,0-1.913,1.913A1,1,0,0,1,239.269,285.507Z" fill="#9d9d9d"/>
+        </g>
+        <g id="Trazado_3487" data-name="Trazado 3487">
+          <path id="Path_12228" data-name="Path 12228" d="M258.218,285.144a1,1,0,0,1-1-1,4.837,4.837,0,0,0-4.83-4.831h-.248a1,1,0,0,1,0-2h.248a6.839,6.839,0,0,1,6.83,6.831A1,1,0,0,1,258.218,285.144Z" fill="#9d9d9d"/>
+        </g>
+        <g id="Trazado_3486" data-name="Trazado 3486">
+          <path id="Path_12229" data-name="Path 12229" d="M255.3,285.507a1,1,0,0,1-1-1,1.915,1.915,0,0,0-1.913-1.913,1,1,0,1,1,0-2,3.918,3.918,0,0,1,3.913,3.913A1,1,0,0,1,255.3,285.507Z" fill="#9d9d9d"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_7109" data-name="Rectangle 7109" width="48" height="48" transform="translate(-20573 -22003)" fill="none"/>
+  </g>
+</svg>
